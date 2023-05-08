@@ -6,19 +6,21 @@
    <titulo>Eclipse</titulo>
     <capitulo numero_paginas="35"> 
      <titulo>Evasion</titulo>
-     <contenido ></contenido>
+     <contenido enlace="https://www.youtube.com/watch?v=VFazb7MFKYU"> </contenido>
     </capitulo>
     <capitulo numero_paginas="28"> 
      <titulo>El Olor</titulo>
-     <contenido >
-       uri= "https://www.lecturalia.com/libro/16644/eclipse"
-     </contenido>
+     <contenido  enlace= "https://www.lecturalia.com/libro/16644/eclipse"></contenido>
     </capitulo>
     <capitulo numero_paginas="58"> 
      <titulo>Suiza</titulo>
-     <contenido ></contenido>
+     <contenido  enlace= "https://www.ivoox.com/saga-crepusculo-eclipse-capitulo-6-suiza-audios-mp3_rf_4055087_1.html"></contenido>
     </capitulo>
-    <índice></índice>
+    <índice>
+     1_Evasion
+     2_El Olor
+     3_Suiza
+    </índice>
 
     <sinopsis>
      Harry Hole se ha mudado a Los Ángeles, ya nada le retiene en Noruega después de perder
@@ -33,17 +35,22 @@
    <titulo>Las hijas del capitan</titulo>
     <capitulo numero_paginas="10"> 
      <titulo>El amor</titulo>
-     <contenido ></contenido>
+     <contenido  enlace="https://www.casadellibro.com/libro-las-hijas-del-capitan/9788408189985/6337112" ></contenido>
     </capitulo>
     <capitulo numero_paginas="12"> 
      <titulo>Jugando</titulo>
-     <contenido ></contenido>
+     <contenido enlace= "https://enciclopedias.com/c-contemporanea/las-hijas-del-capitan/" ></contenido>
     </capitulo>
     <capitulo numero_paginas="25"> 
      <titulo>En el otoño</titulo>
-     <contenido ></contenido>
+     <contenido enlace="https://www.planetadelibros.com/libro-las-hijas-del-capitan/269161"></contenido>
     </capitulo>
-    <índice></índice>
+    <índice>
+       1_El amor
+       2_Jugando
+       3_El otoño
+    </índice>
+      
 
     <sinopsis>
      En cuanto a la sinopsis de las hijas del capitán podemos iniciar diciendo 
@@ -57,13 +64,16 @@
    <titulo>El pollo pepe</titulo>
     <capitulo numero_paginas="8"> 
      <titulo>Comilon</titulo>
-     <contenido ></contenido>
+     <contenido enlace="https://arasaac.org/materials/es/1517"></contenido>
     </capitulo>
     <capitulo numero_paginas="12"> 
      <titulo>Jugando</titulo>
-     <contenido ></contenido>
+     <contenido enlace="https://es.literaturasm.com/libro/pollo-pepe"></contenido>
     </capitulo>
-    <índice></índice>
+    <índice>
+     1_Comilon
+     2_Jugando
+    </índice>
 
     <sinopsis>
      Cuento simpático para niños de 1-4 años . Cuenta las experiencias y aventuras de nuestro

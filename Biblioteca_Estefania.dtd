@@ -5,7 +5,7 @@
 <!ATTLIST libro numero_paginas CDATA >
 
 <!ATTLIST capitulo numero_paginas CDATA >
-<!ATTLIST capitulo contenido ENTITY>
+<!ATTLIST  contenido enlace CDATA >
 
 
 
@@ -13,7 +13,7 @@
 <!ELEMENT titulo (#PCDATA)>
 
 <!ELEMENT capitulo (titulo,contenido)>
-<!ENTITY contenido SYSTEM "uri">
+<!ELEMENT contenido (#PCDATA)>
 
-<!ELEMENT indice(EMPTY)>
+<!ELEMENT indice(#PCDATA)>
 <!ELEMENT sinopsis (#PCDATA)>
