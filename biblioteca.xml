@@ -171,8 +171,8 @@
 
     <periodicos>
         <periodico id="P0001" tipo_clase="nacional" fecha_publicacion="08/05/2023"><!--nacionales e internacionales-->
-            <secciones>
-                <seccion tipo_seccion="deportes"><!--económica, opinión, deportes, nacional o internacional-->
+            <secciones_per>
+                <seccion_per tipo_seccion="deportes"><!--económica, opinión, deportes, nacional o internacional-->
                     <articulos>
                         <articulo autor="Eleonora Giovio">
                             <contenido informacion="https://elpais.com/deportes/2023-05-08/el-pico-y-pala-de-fran-garrigos-oro-mundial-en-yudo.html">
@@ -185,8 +185,8 @@
                             “Sin el público no hubiese sido posible ganar el torneo”</contenido>
                         </articulo>
                     </articulos>
-                </seccion>
-                <seccion tipo_seccion="economica">
+                </seccion_per>
+                <seccion_per tipo_seccion="economica">
                     <articulos>
                         <articulo autor="Jesús Sérvulo González">
                             <contenido informacion="https://elpais.com/economia/2023-05-08/el-gobierno-planea-endurecer-los-visados-de-oro-por-comprar-vivienda.html">
@@ -199,13 +199,13 @@
                             el visto bueno al pacto salarial. Este martes lo hará CC OO</contenido>
                         </articulo>
                     </articulos>
-                </seccion>
-            </secciones>
+                </seccion_per>
+            </secciones_per>
             <indice></indice>
         </periodico>
         <periodico id="P0002" tipo_clase="internacional" fecha_publicacion="07/05/2023"><!--nacionales e internacionales-->
-            <secciones>
-                <seccion tipo_seccion="internacional"><!--económica, opinión, deportes, nacional o internacional-->
+            <secciones_per>
+                <seccion_per tipo_seccion="internacional"><!--económica, opinión, deportes, nacional o internacional-->
                     <articulos>
                         <articulo autor="Alberto Romero Blanco">
                             <contenido informacion="https://www.bbc.com/mundo/noticias-65311304">
@@ -217,16 +217,16 @@
                             5 coronaciones de monarcas británicos que no terminaron bien (o ni siquiera empezaron)</contenido>
                         </articulo>
                     </articulos>
-                </seccion>
-                <seccion tipo_seccion="economica">
+                </seccion_per>
+                <seccion_per tipo_seccion="economica">
                     <articulos>
                         <articulo autor="Claudia Lee">
                             <contenido informacion="https://www.bbc.com/mundo/vert-fut-65472044">
                             Vidrio o plástico: ¿cuál es mejor para el medio ambiente?</contenido>
                         </articulo>
                     </articulos>
-                </seccion>
-            </secciones>
+                </seccion_per>
+            </secciones_per>
             <indice></indice>
         </periodico>
     </periodicos>

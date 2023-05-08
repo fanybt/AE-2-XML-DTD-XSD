@@ -14,7 +14,7 @@
 <!ELEMENT indice (#PCDATA)>
 <!ELEMENT sinopsis (#PCDATA)>
 
-<!ELEMENT capitulo (#PCDATA)>
+<!ELEMENT capitulo (titulo, contenido)>
 
 <!ATTLIST capitulo paginas_capitulo CDATA #IMPLIED>
 
@@ -37,7 +37,7 @@
 <!ELEMENT indice (#PCDATA)>
 <!ELEMENT secciones (seccion+)>
 
-<!ELEMENT seccion (#PCDATA)>
+<!ELEMENT seccion (contenido)>
 
 <!ATTLIST seccion paginas CDATA #REQUIRED>
 
@@ -48,18 +48,18 @@
 <!-- Elementos PERIODICOS -->
 <!ELEMENT periodicos (periodico+)>
 
-<!ELEMENT periodico (secciones, indice)>
+<!ELEMENT periodico (secciones_per, indice)>
 
 <!ATTLIST periodico id ID #REQUIRED>
 <!ATTLIST periodico tipo_clase (nacional | internacional) #REQUIRED>
 <!ATTLIST periodico fecha_publicacion CDATA #REQUIRED>
 
-<!ELEMENT secciones (seccion+)>
+<!ELEMENT secciones_per (seccion_per+)>
 <!ELEMENT indice (#PCDATA)>
 
-<!ELEMENT seccion (articulos)>
+<!ELEMENT seccion_per (articulos)>
 
-<!ATTLIST seccion tipo_seccion (economica | opinion | deportes | nacional | internacional) #REQUIRED>
+<!ATTLIST seccion_per tipo_seccion (economica | opinion | deportes | nacional | internacional) #REQUIRED>
 
 <!ELEMENT articulos (articulo+)>
 
