@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <libros>
+        <libro id="L0001" tipo_clase="infantil" paginas="120"><!-- novela, infantil o didáctico -->
+            <titulo>EL COLOR SURGIDO DEL ESPACIO Y SEIS CUENTOS CORTOS</titulo>
+            <capitulos>
+                <capitulo paginas_capitulo="6">
+                    <titulo></titulo>
+                    <contenido informacion="https://www.planetadelibros.com/libro-las-aventuras-de-dani-y-evan-5-el-tesoro-del-t-rex-dorado/345391"></contenido>
+                </capitulo>
+            </capitulos>
+            <indice></indice>
+            <sinopsis></sinopsis>
+        </libro>
+        <libro id="L0001" tipo_clase="infantil" paginas="130"><!-- novela, infantil o didáctico -->
+            <titulo></titulo>
+            <capitulos>
+                <capitulo paginas_capitulo="10">
+                    <titulo></titulo>
+                    <contenido informacion="url"></contenido>
+                </capitulo>
+            </capitulos>
+            <indice></indice>
+            <sinopsis></sinopsis>
+        </libro>
+        <libro id="L0001" tipo_clase="infantil" paginas="130"><!-- novela, infantil o didáctico -->
+            <titulo></titulo>
+            <capitulos>
+                <capitulo paginas_capitulo="10">
+                    <titulo></titulo>
+                    <contenido informacion="url"></contenido>
+                </capitulo>
+            </capitulos>
+            <indice></indice>
+            <sinopsis></sinopsis>
+        </libro>
+    </libros>
+
+    <revistas>
+        <revista id="R0001" tipo_clase="informatica" paginas="100"><!--informática, corazón, coches, investigación y otras -->
+            <titulo></titulo>
+            <numero_revista></numero_revista>
+            <indice></indice>
+            <secciones>
+                <seccion paginas="5">
+                    <contenido informacion="url"></contenido>
+                </seccion>
+            </secciones>
+        </revista>
+        <revista id="R0001" tipo_clase="informatica" paginas="100"><!--informática, corazón, coches, investigación y otras -->
+            <titulo></titulo>
+            <numero_revista></numero_revista>
+            <indice></indice>
+            <secciones>
+                <seccion paginas="5">
+                    <contenido informacion="url"></contenido>
+                </seccion>
+            </secciones>
+        </revista>
+        <revista id="R0001" tipo_clase="informatica" paginas="100"><!--informática, corazón, coches, investigación y otras -->
+            <titulo></titulo>
+            <numero_revista></numero_revista>
+            <indice></indice>
+            <secciones>
+                <seccion paginas="5">
+                    <contenido informacion="url"></contenido>
+                </seccion>
+            </secciones>
+        </revista>
+        <revista id="R0001" tipo_clase="informatica" paginas="100"><!--informática, corazón, coches, investigación y otras -->
+            <titulo></titulo>
+            <numero_revista></numero_revista>
+            <indice></indice>
+            <secciones>
+                <seccion paginas="5">
+                    <contenido informacion="url"></contenido>
+                </seccion>
+            </secciones>
+        </revista>
+        <revista id="R0001" tipo_clase="informatica" paginas="100"><!--informática, corazón, coches, investigación y otras -->
+            <titulo></titulo>
+            <numero_revista></numero_revista>
+            <indice></indice>
+            <secciones>
+                <seccion paginas="5">
+                    <contenido informacion="url"></contenido>
+                </seccion>
+            </secciones>
+        </revista>
+    </revistas>
+
+    <periodicos>
+        <periodico id="P0001" tipo_clase="nacional" fecha_publicacion=""><!--nacionales e internacionales-->
+            <secciones>
+                <seccion tipo_seccion="economica"><!--económica, opinión, deportes, nacional o internacional-->
+                    <articulos>
+                        <articulo autor="">
+                            <contenido informacion="url"></contenido>
+                        </articulo>
+                        <articulo autor="">
+                            <contenido informacion="url"></contenido>
+                        </articulo>
+                    </articulos>
+                </seccion>
+            </secciones>
+            <indice></indice>
+        </periodico>
+    </periodicos>
+</biblioteca>
