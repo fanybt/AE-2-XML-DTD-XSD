@@ -10,7 +10,9 @@
     </capitulo>
     <capitulo numero_paginas="28"> 
      <titulo>El Olor</titulo>
-     <contenido ></contenido>
+     <contenido >
+       uri= "https://www.lecturalia.com/libro/16644/eclipse"
+     </contenido>
     </capitulo>
     <capitulo numero_paginas="58"> 
      <titulo>Suiza</titulo>
