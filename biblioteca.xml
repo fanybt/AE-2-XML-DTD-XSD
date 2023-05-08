@@ -1,89 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <biblioteca>
     <libros>
-        <libro id="L0001" tipo_clase="infantil" paginas="120"><!-- novela, infantil o didáctico -->
-            <titulo>EL COLOR SURGIDO DEL ESPACIO Y SEIS CUENTOS CORTOS</titulo>
+        <libro id="L0001" tipo_clase="infantil" paginas="38"><!-- novela, infantil o didáctico -->
+            <titulo>Siete días, 7 cuentos</titulo>
             <capitulos>
-                <capitulo paginas_capitulo="6">
-                    <titulo></titulo>
-                    <contenido informacion="https://www.planetadelibros.com/libro-las-aventuras-de-dani-y-evan-5-el-tesoro-del-t-rex-dorado/345391"></contenido>
+                <capitulo paginas_capitulo="4">
+                    <titulo>Mi tío escultor</titulo>
+                    <contenido informacion="https://www.margenlibros.com/libro/siete-dias-7-cuentos_120854"></contenido>
+                </capitulo>
+                <capitulo paginas_capitulo="4">
+                    <titulo>Un corte de pelo</titulo>
+                    <contenido informacion="https://www.margenlibros.com/libro/siete-dias-7-cuentos_120854"></contenido>
+                </capitulo>
+                <capitulo paginas_capitulo="4">
+                    <titulo>Una calamidad de robot</titulo>
+                    <contenido informacion="https://www.margenlibros.com/libro/siete-dias-7-cuentos_120854"></contenido>
+                </capitulo>
+                <capitulo paginas_capitulo="4">
+                    <titulo>El hombre más serio del mundo</titulo>
+                    <contenido informacion="https://www.margenlibros.com/libro/siete-dias-7-cuentos_120854"></contenido>
+                </capitulo>
+                <capitulo paginas_capitulo="4">
+                    <titulo>Ranas, príncipes y princesas</titulo>
+                    <contenido informacion="https://www.margenlibros.com/libro/siete-dias-7-cuentos_120854"></contenido>
+                </capitulo>
+                <capitulo paginas_capitulo="4">
+                    <titulo>Una redacción salvaje</titulo>
+                    <contenido informacion="https://www.margenlibros.com/libro/siete-dias-7-cuentos_120854"></contenido>
+                </capitulo>
+                <capitulo paginas_capitulo="3">
+                    <titulo>Una memoria prodigiosa</titulo>
+                    <contenido informacion="https://www.margenlibros.com/libro/siete-dias-7-cuentos_120854"></contenido>
                 </capitulo>
             </capitulos>
-            <indice></indice>
-            <sinopsis></sinopsis>
+            <indice>Mi tío escultor, 4. Un corte de pelo, 8. Una calamidad de robot, 12. El hombre más serio del mundo, 16.
+            Ranas, príncipes y princesas, 20. Una redacción salvaje, 24. Una memoria prodigiosa, 28</indice>
+            <sinopsis>Uno para cada día! 7 fantásticos cuentos de Daniel Nesquens ilustrados por importantes Premios
+            Nacionales de Ilustración.</sinopsis>
         </libro>
-        <libro id="L0001" tipo_clase="infantil" paginas="130"><!-- novela, infantil o didáctico -->
-            <titulo></titulo>
+        <libro id="L0002" tipo_clase="infantil" paginas="172"><!-- novela, infantil o didáctico -->
+            <titulo>Sólo tú puedes salvar a la humanidad</titulo>
             <capitulos>
                 <capitulo paginas_capitulo="10">
-                    <titulo></titulo>
-                    <contenido informacion="url"></contenido>
+                    <titulo>El héroe con mil vidas extra</titulo>
+                    <contenido informacion="https://www.casadellibro.com/libro-solo-tu-puedes-salvar-a-la-humanidad/9788420448404/9016"></contenido>
                 </capitulo>
-            </capitulos>
-            <indice></indice>
-            <sinopsis></sinopsis>
-        </libro>
-        <libro id="L0001" tipo_clase="infantil" paginas="130"><!-- novela, infantil o didáctico -->
-            <titulo></titulo>
-            <capitulos>
                 <capitulo paginas_capitulo="10">
-                    <titulo></titulo>
-                    <contenido informacion="url"></contenido>
+                    <titulo>Para jugar, accionar los mandos</titulo>
+                    <contenido informacion="https://www.casadellibro.com/libro-solo-tu-puedes-salvar-a-la-humanidad/9788420448404/9016"></contenido>
+                </capitulo>
+                <capitulo paginas_capitulo="15">
+                    <titulo>Cereales asesinos</titulo>
+                    <contenido informacion="https://www.casadellibro.com/libro-solo-tu-puedes-salvar-a-la-humanidad/9788420448404/9016"></contenido>
+                </capitulo>
+                <capitulo paginas_capitulo="14">
+                    <titulo>Nadie muere de verdad</titulo>
+                    <contenido informacion="https://www.casadellibro.com/libro-solo-tu-puedes-salvar-a-la-humanidad/9788420448404/9016"></contenido>
+                </capitulo>
+                <capitulo paginas_capitulo="12">
+                    <titulo>Si no lo haces tú, ¿quién lo hará?</titulo>
+                    <contenido informacion="https://www.casadellibro.com/libro-solo-tu-puedes-salvar-a-la-humanidad/9788420448404/9016"></contenido>
+                </capitulo>
+                <capitulo paginas_capitulo="17">
+                    <titulo>Porciones de pollo en el espacio</titulo>
+                    <contenido informacion="https://www.casadellibro.com/libro-solo-tu-puedes-salvar-a-la-humanidad/9788420448404/9016"></contenido>
                 </capitulo>
             </capitulos>
-            <indice></indice>
-            <sinopsis></sinopsis>
+            <indice>1 El héroe con mil vidas extra, 9. 2 Para jugar, accionar los mandos, 19. 3 Cereales asesinos, 33.
+            4 Nadie muere de verdad, 48. 5 Si no lo haces tú, ¿quién lo hará?, 63. 6 Porciones de pollo en el espacio, 75.</indice>
+            <sinopsis>A Johnny, un amigo le ha dejado el nuevo juego de ordenador, Sólo tú puedes salvar a la humanidad.
+            Cuando se dispone a salvarla destruyendo las naves de los ScreeWees, aparece en la pantalla un mensaje:
+            Nos rendimos. No queremos más guerras Johnny dialoga con la Capitana e, impresionado por las razones que le da,
+            decide no atacarles y ayudarles a retirarse a su lugar de origen, donde estarán a salvo. Así se ve envuelto
+            en una emocionante aventura espacial que comparte con tres amigos y una chica fuera de lo común. Todo ello
+            le hará reflexionar sobre la guerra, la paz, la violencia injustificada, la igualdad entre los sexos,
+            la solidaridad... y saldrá renovado de esta insólita aventura.</sinopsis>
+        </libro>
+        <libro id="L0003" tipo_clase="novela" paginas="128"><!-- novela, infantil o didáctico -->
+            <titulo>La metamorfosis</titulo>
+            <capitulos>
+                <capitulo paginas_capitulo="90">
+                    <titulo>La metamorfosis</titulo>
+                    <contenido informacion="https://www.alianzaeditorial.es/primer_capitulo/la-metamorfosis.pdf"></contenido>
+                </capitulo>
+                <capitulo paginas_capitulo="20">
+                    <titulo>Un artista del hambre</titulo>
+                    <contenido informacion="https://www.alianzaeditorial.es/libro/bibliotecas-de-autor/la-metamorfosis-franz-kafka-9788420651361/"></contenido>
+                </capitulo>
+                <capitulo paginas_capitulo="10">
+                    <titulo>Un artista del trapecio</titulo>
+                    <contenido informacion="https://www.alianzaeditorial.es/libro/bibliotecas-de-autor/la-metamorfosis-franz-kafka-9788420651361/"></contenido>
+                </capitulo>
+            </capitulos>
+            <indice>9 La metamorfosis.
+                    99 Un artista del hambre.
+                    119 Un artista del trapecio.</indice>
+            <sinopsis>«Al despertar Gregorio Samsa una mañana, tras un sueño intranquilo, se encontró
+            en su cama convertido en un monstruoso insecto.» Tal es el abrupto comienzo, que nos sitúa
+            de raíz bajo unas reglas distintas, de "La metamorfosis", sin duda alguna la obra de Franz Kafka
+            que ha alcanzado mayor celebridad. Escrito en 1912 y publicado en 1916, este relato es considerado
+            una de las obras maestras del siglo xx por sus innegables rasgos precursores y el caudal de ideas
+            e interpretaciones que desde siempre ha suscitado. Completan este volumen los relatos «Un artista
+            del hambre» y «Un artista del trapecio».</sinopsis>
         </libro>
     </libros>
 
     <revistas>
-        <revista id="R0001" tipo_clase="informatica" paginas="100"><!--informática, corazón, coches, investigación y otras -->
-            <titulo></titulo>
-            <numero_revista></numero_revista>
-            <indice></indice>
+        <revista id="R0001" tipo_clase="investigacion" paginas="298"><!--informática, corazón, coches, investigación y otras -->
+            <titulo>Revista de Investigación Educativa</titulo>
+            <numero_revista>Vol. 41, Núm. 1</numero_revista>
+            <indice>Educating the Youth to Develop Life Purpose: An Eco-systemic Approach, 15-31.
+            Evaluación de la competencia digital del alumnado de Educación Primaria, 33-50.
+            Análisis de la autopercepción de la competencia digital docente en la formación
+            inicial de maestros y maestras, 51-67.
+            El programa de enseñanza bilingüe en Andalucía según los auxiliares de conversación, 69-85.
+            </indice>
             <secciones>
-                <seccion paginas="5">
-                    <contenido informacion="url"></contenido>
+                <seccion paginas="17">
+                    <contenido informacion="https://revistas.um.es/rie/article/view/539521/336291">Educating the Youth
+                    to Develop Life Purpose: An Eco-systemic Approach</contenido>
+                </seccion>
+                <seccion paginas="17">
+                    <contenido informacion="https://revistas.um.es/rie/article/view/520091">Evaluación de la
+                    competencia digital del alumnado de Educación Primaria</contenido>
+                </seccion>
+                <seccion paginas="16">
+                    <contenido informacion="https://revistas.um.es/rie/article/view/501151">Análisis de la autopercepción
+                    de la competencia digital docente en la formación inicial de maestros y maestras</contenido>
+                </seccion>
+                <seccion paginas="16">
+                    <contenido informacion="https://revistas.um.es/rie/article/view/495781">El programa de enseñanza bilingüe
+                    en Andalucía según los auxiliares de conversación</contenido>
                 </seccion>
             </secciones>
         </revista>
-        <revista id="R0001" tipo_clase="informatica" paginas="100"><!--informática, corazón, coches, investigación y otras -->
-            <titulo></titulo>
-            <numero_revista></numero_revista>
-            <indice></indice>
+        <revista id="R0002" tipo_clase="informatica" paginas="100"><!--informática, corazón, coches, investigación y otras -->
+            <titulo>Revista de tecnología e informática histórica</titulo>
+            <numero_revista>Volumen 2, Número 1</numero_revista>
+            <indice>1 Descifrando la mecánica del cielo. El mecanismo de Anticitera
+            Diego Gustavo Macchi 17 Continuar el camino. Cincuenta años de computación en Argentina
+            Alejandro Smukler 36 La informática en el Estado Argentino. El Centro Único de Procesamiento Electrónico
+            de Datos (1967-1991) Diego Gustavo Macchi 49 Lenguajes Basic en las Home Computers Marcos Leguizamón
+            77 Las variables del sistema exclusivas de la TS 2068 Patricio Herrero Ducloux</indice>
             <secciones>
-                <seccion paginas="5">
-                    <contenido informacion="url"></contenido>
+                <seccion paginas="16">
+                    <contenido informacion="https://museodeinformatica.org.ar/wp-content/uploads/2013/09/ReTIH-2-2012.pdf">
+                    Descifrando la mecánica del cielo. El mecanismo de Anticitera</contenido>
                 </seccion>
-            </secciones>
-        </revista>
-        <revista id="R0001" tipo_clase="informatica" paginas="100"><!--informática, corazón, coches, investigación y otras -->
-            <titulo></titulo>
-            <numero_revista></numero_revista>
-            <indice></indice>
-            <secciones>
-                <seccion paginas="5">
-                    <contenido informacion="url"></contenido>
+                <seccion paginas="19">
+                    <contenido informacion="https://museodeinformatica.org.ar/wp-content/uploads/2013/09/ReTIH-2-2012.pdf">
+                    Continuar el camino. Cincuenta años de computación en Argentina</contenido>
                 </seccion>
-            </secciones>
-        </revista>
-        <revista id="R0001" tipo_clase="informatica" paginas="100"><!--informática, corazón, coches, investigación y otras -->
-            <titulo></titulo>
-            <numero_revista></numero_revista>
-            <indice></indice>
-            <secciones>
-                <seccion paginas="5">
-                    <contenido informacion="url"></contenido>
+                <seccion paginas="13">
+                    <contenido informacion="https://museodeinformatica.org.ar/wp-content/uploads/2013/09/ReTIH-2-2012.pdf">
+                    La informática en el Estado Argentino. El Centro Único de Procesamiento Electrónico
+                    de Datos (1967-1991)</contenido>
                 </seccion>
-            </secciones>
-        </revista>
-        <revista id="R0001" tipo_clase="informatica" paginas="100"><!--informática, corazón, coches, investigación y otras -->
-            <titulo></titulo>
-            <numero_revista></numero_revista>
-            <indice></indice>
-            <secciones>
-                <seccion paginas="5">
-                    <contenido informacion="url"></contenido>
+                <seccion paginas="28">
+                    <contenido informacion="https://museodeinformatica.org.ar/wp-content/uploads/2013/09/ReTIH-2-2012.pdf">
+                    Lenguajes Basic en las Home Computers</contenido>
+                </seccion>
+                <seccion paginas="8">
+                    <contenido informacion="https://museodeinformatica.org.ar/wp-content/uploads/2013/09/ReTIH-2-2012.pdf">
+                    LLas variables del sistema exclusivas de la TS 2068</contenido>
                 </seccion>
             </secciones>
         </revista>
@@ -91,6 +170,21 @@
 
     <periodicos>
         <periodico id="P0001" tipo_clase="nacional" fecha_publicacion=""><!--nacionales e internacionales-->
+            <secciones>
+                <seccion tipo_seccion="economica"><!--económica, opinión, deportes, nacional o internacional-->
+                    <articulos>
+                        <articulo autor="">
+                            <contenido informacion="url"></contenido>
+                        </articulo>
+                        <articulo autor="">
+                            <contenido informacion="url"></contenido>
+                        </articulo>
+                    </articulos>
+                </seccion>
+            </secciones>
+            <indice></indice>
+        </periodico>
+        <periodico id="P0002" tipo_clase="nacional" fecha_publicacion=""><!--nacionales e internacionales-->
             <secciones>
                 <seccion tipo_seccion="economica"><!--económica, opinión, deportes, nacional o internacional-->
                     <articulos>
