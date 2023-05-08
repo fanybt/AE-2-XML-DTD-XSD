@@ -169,30 +169,59 @@
     </revistas>
 
     <periodicos>
-        <periodico id="P0001" tipo_clase="nacional" fecha_publicacion=""><!--nacionales e internacionales-->
+        <periodico id="P0001" tipo_clase="nacional" fecha_publicacion="08/05/2023"><!--nacionales e internacionales-->
             <secciones>
-                <seccion tipo_seccion="economica"><!--económica, opinión, deportes, nacional o internacional-->
+                <seccion tipo_seccion="deportes"><!--económica, opinión, deportes, nacional o internacional-->
                     <articulos>
-                        <articulo autor="">
-                            <contenido informacion="url"></contenido>
+                        <articulo autor="Eleonora Giovio">
+                            <contenido informacion="https://elpais.com/deportes/2023-05-08/el-pico-y-pala-de-fran-garrigos-oro-mundial-en-yudo.html">
+                            El español de 28 años, “talento incansable y ejemplo de superación” según su técnico,
+                            se tomó unos meses sabáticos después de la decepción de los Juegos de Tokio</contenido>
                         </articulo>
-                        <articulo autor="">
-                            <contenido informacion="url"></contenido>
+                        <articulo autor="Víctor Delgado">
+                            <contenido informacion="https://elpais.com/deportes/2023-05-07/del-vamos-rafa-al-vamos-charly-madrid-lleva-en-volandas-a-alcaraz.html">
+                            El murciano se gana el apoyo de la Caja Mágica como solo antes había hecho Nadal:
+                            “Sin el público no hubiese sido posible ganar el torneo”</contenido>
+                        </articulo>
+                    </articulos>
+                </seccion>
+                <seccion tipo_seccion="economica">
+                    <articulos>
+                        <articulo autor="Jesús Sérvulo González">
+                            <contenido informacion="https://elpais.com/economia/2023-05-08/el-gobierno-planea-endurecer-los-visados-de-oro-por-comprar-vivienda.html">
+                            El Ejecutivo sopesa si elevar el mínimo de inversión o suprimir este tipo de permisos de residencia</contenido>
+                        </articulo>
+                        <articulo autor="Emilio Sánchez Hidalgo">
+                            <contenido informacion="https://elpais.com/economia/2023-05-08/controlar-la-inteligencia-artificial-facilitar-el-teletrabajo-y-mas-formacion-el-acuerdo-de-sindicatos-y-empresarios-al-detalle.html">
+                            Controlar la inteligencia artificial, facilitar el teletrabajo y más formación: el acuerdo de
+                            sindicatos y empresarios, al detalle. Los órganos directivos de CEOE y Cepyme y de UGT dan
+                            el visto bueno al pacto salarial. Este martes lo hará CC OO</contenido>
                         </articulo>
                     </articulos>
                 </seccion>
             </secciones>
             <indice></indice>
         </periodico>
-        <periodico id="P0002" tipo_clase="nacional" fecha_publicacion=""><!--nacionales e internacionales-->
+        <periodico id="P0002" tipo_clase="internacional" fecha_publicacion="07/05/2023"><!--nacionales e internacionales-->
             <secciones>
-                <seccion tipo_seccion="economica"><!--económica, opinión, deportes, nacional o internacional-->
+                <seccion tipo_seccion="internacional"><!--económica, opinión, deportes, nacional o internacional-->
                     <articulos>
-                        <articulo autor="">
-                            <contenido informacion="url"></contenido>
+                        <articulo autor="Alberto Romero Blanco">
+                            <contenido informacion="https://www.bbc.com/mundo/noticias-65311304">
+                            La curiosa manera en que los griegos y los romanos usaban electricidad para aliviar dolores
+                            (cuando ni siquiera sabían generarla)</contenido>
                         </articulo>
-                        <articulo autor="">
-                            <contenido informacion="url"></contenido>
+                        <articulo autor="William Márquez">
+                            <contenido informacion="https://www.bbc.com/mundo/noticias-65251294">
+                            5 coronaciones de monarcas británicos que no terminaron bien (o ni siquiera empezaron)</contenido>
+                        </articulo>
+                    </articulos>
+                </seccion>
+                <seccion tipo_seccion="economica">
+                    <articulos>
+                        <articulo autor="Claudia Lee">
+                            <contenido informacion="https://www.bbc.com/mundo/vert-fut-65472044">
+                            Vidrio o plástico: ¿cuál es mejor para el medio ambiente?</contenido>
                         </articulo>
                     </articulos>
                 </seccion>
