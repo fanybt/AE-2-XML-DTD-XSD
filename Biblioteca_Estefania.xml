@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Biblioteca SYSTEM "Biblioteca_Estefania.dtd">
+<Biblioteca>
+
+ <libro id="L0001" tipo_clase="novela"  numero_paginas="450">
+   <titulo>Eclipse</titulo>
+    <capitulo numero_paginas="35"> 
+     <titulo>Evasion</titulo>
+     <contenido ></contenido>
+    </capitulo>
+    <capitulo numero_paginas="28"> 
+     <titulo>El Olor</titulo>
+     <contenido ></contenido>
+    </capitulo>
+    <capitulo numero_paginas="58"> 
+     <titulo>Suiza</titulo>
+     <contenido ></contenido>
+    </capitulo>
+    <índice></índice>
+
+    <sinopsis>
+     Harry Hole se ha mudado a Los Ángeles, ya nada le retiene en Noruega después de perder
+     todo lo que daba sentido a su vida. Allí lo rescata de su deriva alcohólica Lucille, una
+     veterana actriz de cine que a cambio de su protección le ofrece un 
+     techo un traje a medida y unos zapatos de lujo.
+    </sinopsis>
+ 
+  </libro>
+
+ <libro id="L0002" tipo_clase="novela"  numero_paginas="280">
+   <titulo>Las hijas del capitan</titulo>
+    <capitulo numero_paginas="10"> 
+     <titulo>El amor</titulo>
+     <contenido ></contenido>
+    </capitulo>
+    <capitulo numero_paginas="12"> 
+     <titulo>Jugando</titulo>
+     <contenido ></contenido>
+    </capitulo>
+    <capitulo numero_paginas="25"> 
+     <titulo>En el otoño</titulo>
+     <contenido ></contenido>
+    </capitulo>
+    <índice></índice>
+
+    <sinopsis>
+     En cuanto a la sinopsis de las hijas del capitán podemos iniciar diciendo 
+     que la trama está basada en la vida de tres mujeres jóvenes españolas que emigraron
+     a los Estados Unidos, en una época que la historia llegó a marcar en definitiva a la
+     sociedad, pues se vio emigrar a muchos españoles tras el inicio de la guerra civil.
+    </sinopsis>
+ 
+  </libro>
+  <libro id="L0003" tipo_clase="infantil"  numero_paginas="20">
+   <titulo>El pollo pepe</titulo>
+    <capitulo numero_paginas="8"> 
+     <titulo>Comilon</titulo>
+     <contenido ></contenido>
+    </capitulo>
+    <capitulo numero_paginas="12"> 
+     <titulo>Jugando</titulo>
+     <contenido ></contenido>
+    </capitulo>
+    <índice></índice>
+
+    <sinopsis>
+     Cuento simpático para niños de 1-4 años . Cuenta las experiencias y aventuras de nuestro
+     amigo el pollo Pepé .Un pollito muy simpatico y comilón .
+    </sinopsis>
+ 
+  </libro>
+</Biblioteca>
