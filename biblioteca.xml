@@ -108,62 +108,62 @@
 
     <revistas>
         <revista id="R0001" tipo_clase="investigacion" paginas="298"><!--informática, corazón, coches, investigación y otras -->
-            <titulo>Revista de Investigación Educativa</titulo>
+            <titulo_rev>Revista de Investigación Educativa</titulo_rev>
             <numero_revista>Vol. 41, Núm. 1</numero_revista>
-            <indice>Educating the Youth to Develop Life Purpose: An Eco-systemic Approach, 15-31.
+            <indice_rev>Educating the Youth to Develop Life Purpose: An Eco-systemic Approach, 15-31.
             Evaluación de la competencia digital del alumnado de Educación Primaria, 33-50.
             Análisis de la autopercepción de la competencia digital docente en la formación
             inicial de maestros y maestras, 51-67.
             El programa de enseñanza bilingüe en Andalucía según los auxiliares de conversación, 69-85.
-            </indice>
+            </indice_rev>
             <secciones>
                 <seccion paginas="17">
-                    <contenido informacion="https://revistas.um.es/rie/article/view/539521/336291">Educating the Youth
-                    to Develop Life Purpose: An Eco-systemic Approach</contenido>
+                    <contenido_rev informacion="https://revistas.um.es/rie/article/view/539521/336291">Educating the Youth
+                    to Develop Life Purpose: An Eco-systemic Approach</contenido_rev>
                 </seccion>
                 <seccion paginas="17">
-                    <contenido informacion="https://revistas.um.es/rie/article/view/520091">Evaluación de la
-                    competencia digital del alumnado de Educación Primaria</contenido>
+                    <contenido_rev informacion="https://revistas.um.es/rie/article/view/520091">Evaluación de la
+                    competencia digital del alumnado de Educación Primaria</contenido_rev>
                 </seccion>
                 <seccion paginas="16">
-                    <contenido informacion="https://revistas.um.es/rie/article/view/501151">Análisis de la autopercepción
-                    de la competencia digital docente en la formación inicial de maestros y maestras</contenido>
+                    <contenido_rev informacion="https://revistas.um.es/rie/article/view/501151">Análisis de la autopercepción
+                    de la competencia digital docente en la formación inicial de maestros y maestras</contenido_rev>
                 </seccion>
                 <seccion paginas="16">
-                    <contenido informacion="https://revistas.um.es/rie/article/view/495781">El programa de enseñanza bilingüe
-                    en Andalucía según los auxiliares de conversación</contenido>
+                    <contenido_rev informacion="https://revistas.um.es/rie/article/view/495781">El programa de enseñanza bilingüe
+                    en Andalucía según los auxiliares de conversación</contenido_rev>
                 </seccion>
             </secciones>
         </revista>
         <revista id="R0002" tipo_clase="informatica" paginas="100"><!--informática, corazón, coches, investigación y otras -->
-            <titulo>Revista de tecnología e informática histórica</titulo>
+            <titulo_rev>Revista de tecnología e informática histórica</titulo_rev>
             <numero_revista>Volumen 2, Número 1</numero_revista>
-            <indice>1 Descifrando la mecánica del cielo. El mecanismo de Anticitera
+            <indice_rev>1 Descifrando la mecánica del cielo. El mecanismo de Anticitera
             Diego Gustavo Macchi 17 Continuar el camino. Cincuenta años de computación en Argentina
             Alejandro Smukler 36 La informática en el Estado Argentino. El Centro Único de Procesamiento Electrónico
             de Datos (1967-1991) Diego Gustavo Macchi 49 Lenguajes Basic en las Home Computers Marcos Leguizamón
-            77 Las variables del sistema exclusivas de la TS 2068 Patricio Herrero Ducloux</indice>
+            77 Las variables del sistema exclusivas de la TS 2068 Patricio Herrero Ducloux</indice_rev>
             <secciones>
                 <seccion paginas="16">
-                    <contenido informacion="https://museodeinformatica.org.ar/wp-content/uploads/2013/09/ReTIH-2-2012.pdf">
-                    Descifrando la mecánica del cielo. El mecanismo de Anticitera</contenido>
+                    <contenido_rev informacion="https://museodeinformatica.org.ar/wp-content/uploads/2013/09/ReTIH-2-2012.pdf">
+                    Descifrando la mecánica del cielo. El mecanismo de Anticitera</contenido_rev>
                 </seccion>
                 <seccion paginas="19">
-                    <contenido informacion="https://museodeinformatica.org.ar/wp-content/uploads/2013/09/ReTIH-2-2012.pdf">
-                    Continuar el camino. Cincuenta años de computación en Argentina</contenido>
+                    <contenido_rev informacion="https://museodeinformatica.org.ar/wp-content/uploads/2013/09/ReTIH-2-2012.pdf">
+                    Continuar el camino. Cincuenta años de computación en Argentina</contenido_rev>
                 </seccion>
                 <seccion paginas="13">
-                    <contenido informacion="https://museodeinformatica.org.ar/wp-content/uploads/2013/09/ReTIH-2-2012.pdf">
+                    <contenido_rev informacion="https://museodeinformatica.org.ar/wp-content/uploads/2013/09/ReTIH-2-2012.pdf">
                     La informática en el Estado Argentino. El Centro Único de Procesamiento Electrónico
-                    de Datos (1967-1991)</contenido>
+                    de Datos (1967-1991)</contenido_rev>
                 </seccion>
                 <seccion paginas="28">
-                    <contenido informacion="https://museodeinformatica.org.ar/wp-content/uploads/2013/09/ReTIH-2-2012.pdf">
-                    Lenguajes Basic en las Home Computers</contenido>
+                    <contenido_rev informacion="https://museodeinformatica.org.ar/wp-content/uploads/2013/09/ReTIH-2-2012.pdf">
+                    Lenguajes Basic en las Home Computers</contenido_rev>
                 </seccion>
                 <seccion paginas="8">
-                    <contenido informacion="https://museodeinformatica.org.ar/wp-content/uploads/2013/09/ReTIH-2-2012.pdf">
-                    LLas variables del sistema exclusivas de la TS 2068</contenido>
+                    <contenido_rev informacion="https://museodeinformatica.org.ar/wp-content/uploads/2013/09/ReTIH-2-2012.pdf">
+                    LLas variables del sistema exclusivas de la TS 2068</contenido_rev>
                 </seccion>
             </secciones>
         </revista>
@@ -175,59 +175,59 @@
                 <seccion_per tipo_seccion="deportes"><!--económica, opinión, deportes, nacional o internacional-->
                     <articulos>
                         <articulo autor="Eleonora Giovio">
-                            <contenido informacion="https://elpais.com/deportes/2023-05-08/el-pico-y-pala-de-fran-garrigos-oro-mundial-en-yudo.html">
+                            <contenido_per informacion="https://elpais.com/deportes/2023-05-08/el-pico-y-pala-de-fran-garrigos-oro-mundial-en-yudo.html">
                             El español de 28 años, “talento incansable y ejemplo de superación” según su técnico,
-                            se tomó unos meses sabáticos después de la decepción de los Juegos de Tokio</contenido>
+                            se tomó unos meses sabáticos después de la decepción de los Juegos de Tokio</contenido_per>
                         </articulo>
                         <articulo autor="Víctor Delgado">
-                            <contenido informacion="https://elpais.com/deportes/2023-05-07/del-vamos-rafa-al-vamos-charly-madrid-lleva-en-volandas-a-alcaraz.html">
+                            <contenido_per informacion="https://elpais.com/deportes/2023-05-07/del-vamos-rafa-al-vamos-charly-madrid-lleva-en-volandas-a-alcaraz.html">
                             El murciano se gana el apoyo de la Caja Mágica como solo antes había hecho Nadal:
-                            “Sin el público no hubiese sido posible ganar el torneo”</contenido>
+                            “Sin el público no hubiese sido posible ganar el torneo”</contenido_per>
                         </articulo>
                     </articulos>
                 </seccion_per>
                 <seccion_per tipo_seccion="economica">
                     <articulos>
                         <articulo autor="Jesús Sérvulo González">
-                            <contenido informacion="https://elpais.com/economia/2023-05-08/el-gobierno-planea-endurecer-los-visados-de-oro-por-comprar-vivienda.html">
-                            El Ejecutivo sopesa si elevar el mínimo de inversión o suprimir este tipo de permisos de residencia</contenido>
+                            <contenido_per informacion="https://elpais.com/economia/2023-05-08/el-gobierno-planea-endurecer-los-visados-de-oro-por-comprar-vivienda.html">
+                            El Ejecutivo sopesa si elevar el mínimo de inversión o suprimir este tipo de permisos de residencia</contenido_per>
                         </articulo>
                         <articulo autor="Emilio Sánchez Hidalgo">
-                            <contenido informacion="https://elpais.com/economia/2023-05-08/controlar-la-inteligencia-artificial-facilitar-el-teletrabajo-y-mas-formacion-el-acuerdo-de-sindicatos-y-empresarios-al-detalle.html">
+                            <contenido_per informacion="https://elpais.com/economia/2023-05-08/controlar-la-inteligencia-artificial-facilitar-el-teletrabajo-y-mas-formacion-el-acuerdo-de-sindicatos-y-empresarios-al-detalle.html">
                             Controlar la inteligencia artificial, facilitar el teletrabajo y más formación: el acuerdo de
                             sindicatos y empresarios, al detalle. Los órganos directivos de CEOE y Cepyme y de UGT dan
-                            el visto bueno al pacto salarial. Este martes lo hará CC OO</contenido>
+                            el visto bueno al pacto salarial. Este martes lo hará CC OO</contenido_per>
                         </articulo>
                     </articulos>
                 </seccion_per>
             </secciones_per>
-            <indice></indice>
+            <indice_per></indice_per>
         </periodico>
         <periodico id="P0002" tipo_clase="internacional" fecha_publicacion="07/05/2023"><!--nacionales e internacionales-->
             <secciones_per>
                 <seccion_per tipo_seccion="internacional"><!--económica, opinión, deportes, nacional o internacional-->
                     <articulos>
                         <articulo autor="Alberto Romero Blanco">
-                            <contenido informacion="https://www.bbc.com/mundo/noticias-65311304">
+                            <contenido_per informacion="https://www.bbc.com/mundo/noticias-65311304">
                             La curiosa manera en que los griegos y los romanos usaban electricidad para aliviar dolores
-                            (cuando ni siquiera sabían generarla)</contenido>
+                            (cuando ni siquiera sabían generarla)</contenido_per>
                         </articulo>
                         <articulo autor="William Márquez">
-                            <contenido informacion="https://www.bbc.com/mundo/noticias-65251294">
-                            5 coronaciones de monarcas británicos que no terminaron bien (o ni siquiera empezaron)</contenido>
+                            <contenido_per informacion="https://www.bbc.com/mundo/noticias-65251294">
+                            5 coronaciones de monarcas británicos que no terminaron bien (o ni siquiera empezaron)</contenido_per>
                         </articulo>
                     </articulos>
                 </seccion_per>
                 <seccion_per tipo_seccion="economica">
                     <articulos>
                         <articulo autor="Claudia Lee">
-                            <contenido informacion="https://www.bbc.com/mundo/vert-fut-65472044">
-                            Vidrio o plástico: ¿cuál es mejor para el medio ambiente?</contenido>
+                            <contenido_per informacion="https://www.bbc.com/mundo/vert-fut-65472044">
+                            Vidrio o plástico: ¿cuál es mejor para el medio ambiente?</contenido_per>
                         </articulo>
                     </articulos>
                 </seccion_per>
             </secciones_per>
-            <indice></indice>
+            <indice_per></indice_per>
         </periodico>
     </periodicos>
 </biblioteca>

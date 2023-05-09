@@ -21,41 +21,41 @@
 <!ELEMENT titulo_cap (#PCDATA)>
 <!ELEMENT contenido (#PCDATA)>
 
-<!ATTLIST contenido informacion CDATA #REQUIRED>
+<!ATTLIST contenido informacion CDATA #IMPLIED>
 
 <!-- Elementos REVISTAS -->
 <!ELEMENT revistas (revista+)>
 
-<!ELEMENT revista (titulo, numero_revista, indice?, secciones)>
+<!ELEMENT revista (titulo_rev, numero_revista, indice_rev?, secciones)>
 
 <!ATTLIST revista id ID #REQUIRED>
 <!ATTLIST revista tipo_clase (informatica | corazon | coches | investigacion | otras) #REQUIRED>
 <!ATTLIST revista paginas CDATA #REQUIRED>
 
-<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT titulo_rev (#PCDATA)>
 <!ELEMENT numero_revista (#PCDATA)>
-<!ELEMENT indice (#PCDATA)>
+<!ELEMENT indice_rev (#PCDATA)>
 <!ELEMENT secciones (seccion+)>
 
-<!ELEMENT seccion (contenido)>
+<!ELEMENT seccion (contenido_rev)>
 
 <!ATTLIST seccion paginas CDATA #REQUIRED>
 
-<!ELEMENT contenido (#PCDATA)>
+<!ELEMENT contenido_rev (#PCDATA)>
 
-<!ATTLIST contenido informacion CDATA #REQUIRED>
+<!ATTLIST contenido_rev informacion CDATA #IMPLIED>
 
 <!-- Elementos PERIODICOS -->
 <!ELEMENT periodicos (periodico+)>
 
-<!ELEMENT periodico (secciones_per, indice)>
+<!ELEMENT periodico (secciones_per, indice_per)>
 
 <!ATTLIST periodico id ID #REQUIRED>
 <!ATTLIST periodico tipo_clase (nacional | internacional) #REQUIRED>
 <!ATTLIST periodico fecha_publicacion CDATA #REQUIRED>
 
 <!ELEMENT secciones_per (seccion_per+)>
-<!ELEMENT indice (#PCDATA)>
+<!ELEMENT indice_per (#PCDATA)>
 
 <!ELEMENT seccion_per (articulos)>
 
@@ -63,10 +63,10 @@
 
 <!ELEMENT articulos (articulo+)>
 
-<!ELEMENT articulo (contenido)>
+<!ELEMENT articulo (contenido_per)>
 
 <!ATTLIST articulo autor CDATA #REQUIRED>
 
-<!ELEMENT contenido (#PCDATA)>
+<!ELEMENT contenido_per (#PCDATA)>
 
-<!ATTLIST contenido informacion CDATA #REQUIRED>
+<!ATTLIST contenido_per informacion CDATA #IMPLIED>
