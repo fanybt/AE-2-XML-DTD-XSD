@@ -1,5 +1,5 @@
 
-<!ELEMENT Biblioteca (libro+,revista,periodicos)>
+<!ELEMENT Biblioteca (libro+)>
 <!ELEMENT  libro (titulo,capitulo+,indice,sinopsis)>
 <!ELEMENT titulo (#PCDATA)>
 
