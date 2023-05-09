@@ -6,7 +6,69 @@
     <libros>
 
 
-        <libro id="L0001" tipo_clase="novela" numero_paginas="200">
+        <libro id="L0001" tipo_clase="novela" numero_paginas="600">
+
+            <titulo></titulo>
+            <indice></indice>
+            <sinopsis></sinopsis>
+            <capitulos>
+
+                <capitulo numero_paginas="300">
+
+                    <titulo>cdscsd</titulo>
+                    <contenido enlace_informacion="https:" />
+
+                </capitulo>
+
+                <capitulo numero_paginas="200">
+
+                    <titulo>jnafsafna</titulo>
+                    <contenido enlace_informacion="https:" />
+                </capitulo>
+
+                <capitulo numero_paginas="100">
+
+                    <titulo>knddafna</titulo>
+                    <contenido enlace_informacion="https:" />
+
+                </capitulo>
+
+            </capitulos>
+
+        </libro>
+
+        <libro id="L0002" tipo_clase="infantil" numero_paginas="120">
+
+            <titulo></titulo>
+            <indice></indice>
+            <sinopsis></sinopsis>
+            <capitulos>
+
+                <capitulo numero_paginas="40">
+
+                    <titulo>cdscsd</titulo>
+                    <contenido enlace_informacion="https:" />
+
+                </capitulo>
+
+                <capitulo numero_paginas="40">
+
+                    <titulo>jnafsafna</titulo>
+                    <contenido enlace_informacion="https:" />
+                </capitulo>
+
+                <capitulo numero_paginas="40">
+
+                    <titulo>knddafna</titulo>
+                    <contenido enlace_informacion="https:" />
+
+                </capitulo>
+
+            </capitulos>
+
+        </libro>
+
+        <libro id="L0003" tipo_clase="didactico" numero_paginas="200">
 
             <titulo></titulo>
             <indice></indice>
@@ -42,7 +104,7 @@
 
     <revistas>
 
-        <revista id="R0001" tipo_clase="informática" numero_paginas="150">
+        <revista id="R0001" tipo_clase="informática" numero_paginas="300">
 
             <titulo></titulo>
             <numero_revista></numero_revista>
@@ -50,7 +112,69 @@
 
             <secciones>
 
-                <seccion numero_paginas="50">
+                <seccion numero_paginas="100">
+
+                    <contenido enlace_informacion="https:" />
+
+                </seccion>
+
+                <seccion numero_paginas="100">
+
+                    <contenido enlace_informacion="https:" />
+
+                </seccion>
+
+                <seccion numero_paginas="100">
+
+                    <contenido enlace_informacion="https:" />
+
+                </seccion>
+
+            </secciones>
+
+
+        </revista>
+
+        <revista id="R0002" tipo_clase= "corazon" numero_paginas="180">
+
+            <titulo></titulo>
+            <numero_revista></numero_revista>
+            <indice_contenido></indice_contenido>
+
+            <secciones>
+
+                <seccion numero_paginas="60">
+
+                    <contenido enlace_informacion="https:" />
+
+                </seccion>
+
+                <seccion numero_paginas="60">
+
+                    <contenido enlace_informacion="https:" />
+
+                </seccion>
+
+                <seccion numero_paginas="60">
+
+                    <contenido enlace_informacion="https:" />
+
+                </seccion>
+
+            </secciones>
+
+
+        </revista>
+
+        <revista id="R0003" tipo_clase="coches" numero_paginas="200">
+
+            <titulo></titulo>
+            <numero_revista></numero_revista>
+            <indice_contenido></indice_contenido>
+
+            <secciones>
+
+                <seccion numero_paginas="100">
 
                     <contenido enlace_informacion="https:" />
 
@@ -63,6 +187,68 @@
                 </seccion>
 
                 <seccion numero_paginas="50">
+
+                    <contenido enlace_informacion="https:" />
+
+                </seccion>
+
+            </secciones>
+
+
+        </revista>
+
+        <revista id="R0004" tipo_clase="investigacion" numero_paginas="500">
+
+            <titulo></titulo>
+            <numero_revista></numero_revista>
+            <indice_contenido></indice_contenido>
+
+            <secciones>
+
+                <seccion numero_paginas="300">
+
+                    <contenido enlace_informacion="https:" />
+
+                </seccion>
+
+                <seccion numero_paginas="100">
+
+                    <contenido enlace_informacion="https:" />
+
+                </seccion>
+
+                <seccion numero_paginas="100">
+
+                    <contenido enlace_informacion="https:" />
+
+                </seccion>
+
+            </secciones>
+
+
+        </revista>
+
+        <revista id="R0005" tipo_clase="otras" numero_paginas="400">
+
+            <titulo></titulo>
+            <numero_revista></numero_revista>
+            <indice_contenido></indice_contenido>
+
+            <secciones>
+
+                <seccion numero_paginas="200">
+
+                    <contenido enlace_informacion="https:" />
+
+                </seccion>
+
+                <seccion numero_paginas="100">
+
+                    <contenido enlace_informacion="https:" />
+
+                </seccion>
+
+                <seccion numero_paginas="100">
 
                     <contenido enlace_informacion="https:" />
 
@@ -86,6 +272,163 @@
                 <seccion tiposeccion="economica">
 
                     <articulos>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                    </articulos>
+
+                </seccion>
+
+                <seccion tiposeccion="opinion">
+
+                    <articulos>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                    </articulos>
+
+                </seccion>
+
+            </secciones>
+
+
+        </periodico>
+
+        <periodico id="P0002" tipo_clase="internacional" fecha_publicacion="11/07/2022">
+
+            <indice></indice>
+
+            <secciones>
+
+                <seccion tiposeccion="deportes">
+
+                    <articulos>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                    </articulos>
+
+                </seccion>
+
+                <seccion tiposeccion="nacional">
+
+                    <articulos>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                    </articulos>
+
+                </seccion>
+
+                <seccion tiposeccion="internacional">
+
+                    <articulos>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
 
                         <articulo autor="JuanBrotons">
 
