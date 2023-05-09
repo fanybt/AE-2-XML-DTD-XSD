@@ -3,23 +3,48 @@
  <!DOCTYPE biblioteca [
         <!ELEMENT biblioteca (libros, revistas,periodicos)>
 
+        
         <!ELEMENT libros (libro*)>
 
-        <!ELEMENT libro (titulo, indice, sinopsis,capitulos)>
+        <!ELEMENT libro (titulo_libro, indice_libro, sinopsis,capitulos)>
 
-        <!ELEMENT titulo (#PCDATA)>
-        <!ELEMENT indice (#PCDATA)>
+        <!ELEMENT titulo_libro (#PCDATA)>
+        <!ELEMENT indice_libro (#PCDATA)>
         <!ELEMENT sinopsis (#PCDATA)>
  
         <!ELEMENT capitulos (capitulo*)>
         
-        <!ELEMENT capitulo (titulo, contenido)>
-        <!--titulo lo declaramos anteriormente, es lo mismo-->
-        <!ELEMENT contenido (#PCDATA)>
+        <!ELEMENT capitulo (titulo_capitulo, contenido_capitulo)>
+        <!ELEMENT titulo_capitulo (#PCDATA)>
+        <!ELEMENT contenido_capitulo (#PCDATA)>
 
 
         <!ELEMENT revistas (revista*)>
+        <!ELEMENT revista (titulo, numero_revista,indice_revista,secciones_revista)>
         
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT numero_revista (#PCDATA)>
+        <!ELEMENT indice_revista (#PCDATA)>
+        <!ELEMENT secciones_revista (seccion_revista*)>
+        
+        <!ELEMENT seccion_revista (contenido)>
+        <!ELEMENT contenido (#PCDATA)>
+
+
+        <!ELEMENT periodicos (periodico*)>
+
+        <!ELEMENT periodico (indice_periodico, secciones_periodico)>
+        <!ELEMENT indice_periodico (#PCDATA)>
+        <!ELEMENT secciones_periodico (seccion_periodico*)>
+
+        <!ELEMENT seccion_periodico (articulos)>
+        <!ELEMENT articulos (articulo*)>
+
+        <!ELEMENT articulo (contenido)>
+
+ 
+
+
 
 ]>
 <biblioteca>
@@ -30,28 +55,28 @@
 
         <libro id="L0001" tipo_clase="novela" numero_paginas="600">
 
-            <titulo></titulo>
-            <indice></indice>
+            <titulo_libro></titulo_libro>
+            <indice_libro></indice_libro>
             <sinopsis></sinopsis>
             <capitulos>
 
                 <capitulo numero_paginas="300">
 
-                    <titulo>cdscsd</titulo>
-                    <contenido enlace_informacion="https:" />
+                    <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <contenido_capitulo enlace_informacion="https:" />
 
                 </capitulo>
 
                 <capitulo numero_paginas="200">
 
-                    <titulo>jnafsafna</titulo>
-                    <contenido enlace_informacion="https:" />
+                    <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <contenido_capitulo enlace_informacion="https:" />
                 </capitulo>
 
                 <capitulo numero_paginas="100">
 
-                    <titulo>knddafna</titulo>
-                    <contenido enlace_informacion="https:" />
+                    <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <contenido_capitulo enlace_informacion="https:" />
 
                 </capitulo>
 
@@ -61,28 +86,27 @@
 
         <libro id="L0002" tipo_clase="infantil" numero_paginas="120">
 
-            <titulo></titulo>
-            <indice></indice>
+            <titulo_libro></titulo_libro>
+            <indice_libro></indice_libro>
             <sinopsis></sinopsis>
             <capitulos>
 
                 <capitulo numero_paginas="40">
 
-                    <titulo>cdscsd</titulo>
-                    <contenido enlace_informacion="https:" />
-
+                    <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <contenido_capitulo enlace_informacion="https:" />
                 </capitulo>
 
                 <capitulo numero_paginas="40">
 
-                    <titulo>jnafsafna</titulo>
-                    <contenido enlace_informacion="https:" />
+                    <titulo_capitulo>cdscsd</titulo_capitulo>
+                   <contenido_capitulo enlace_informacion="https:" />
                 </capitulo>
 
                 <capitulo numero_paginas="40">
 
-                    <titulo>knddafna</titulo>
-                    <contenido enlace_informacion="https:" />
+                   <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <contenido_capitulo enlace_informacion="https:" />
 
                 </capitulo>
 
@@ -92,29 +116,28 @@
 
         <libro id="L0003" tipo_clase="didactico" numero_paginas="200">
 
-            <titulo></titulo>
-            <indice></indice>
+            <titulo_libro></titulo_libro>
+            <indice_libro></indice_libro>
             <sinopsis></sinopsis>
             <capitulos>
 
                 <capitulo numero_paginas="100">
 
-                    <titulo>cdscsd</titulo>
-                    <contenido enlace_informacion="https:" />
+                    <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <contenido_capitulo enlace_informacion="https:" />
 
                 </capitulo>
 
                 <capitulo numero_paginas="60">
 
-                    <titulo>jnafsafna</titulo>
-                    <contenido enlace_informacion="https:" />
+                    <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <contenido_capitulo enlace_informacion="https:" />
                 </capitulo>
 
                 <capitulo numero_paginas="40">
 
-                    <titulo>knddafna</titulo>
-                    <contenido enlace_informacion="https:" />
-
+                    <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <contenido_capitulo enlace_informacion="https:" />
                 </capitulo>
 
             </capitulos>
@@ -130,29 +153,29 @@
 
             <titulo></titulo>
             <numero_revista></numero_revista>
-            <indice_contenido></indice_contenido>
+            <indice_revista></indice_revista>
 
-            <secciones>
+            <secciones_revista>
 
-                <seccion numero_paginas="100">
-
-                    <contenido enlace_informacion="https:" />
-
-                </seccion>
-
-                <seccion numero_paginas="100">
+                <seccion_revista numero_paginas="100">
 
                     <contenido enlace_informacion="https:" />
 
-                </seccion>
+                </seccion_revista>
 
-                <seccion numero_paginas="100">
+                <seccion_revista numero_paginas="100">
 
                     <contenido enlace_informacion="https:" />
 
-                </seccion>
+                </seccion_revista>
 
-            </secciones>
+                <seccion_revista numero_paginas="100">
+
+                    <contenido enlace_informacion="https:" />
+
+                </seccion_revista>
+
+            </secciones_revista>
 
 
         </revista>
@@ -161,29 +184,29 @@
 
             <titulo></titulo>
             <numero_revista></numero_revista>
-            <indice_contenido></indice_contenido>
+            <indice_revista></indice_revista>
 
-            <secciones>
+            <secciones_revista>
 
-                <seccion numero_paginas="60">
-
-                    <contenido enlace_informacion="https:" />
-
-                </seccion>
-
-                <seccion numero_paginas="60">
+                <seccion_revista numero_paginas="60">
 
                     <contenido enlace_informacion="https:" />
 
-                </seccion>
+                </seccion_revista>
 
-                <seccion numero_paginas="60">
+                <seccion_revista numero_paginas="60">
 
                     <contenido enlace_informacion="https:" />
 
-                </seccion>
+                </seccion_revista>
 
-            </secciones>
+                <seccion_revista numero_paginas="60">
+
+                    <contenido enlace_informacion="https:" />
+
+                </seccion_revista>
+
+            </secciones_revista>
 
 
         </revista>
@@ -192,29 +215,29 @@
 
             <titulo></titulo>
             <numero_revista></numero_revista>
-            <indice_contenido></indice_contenido>
+            <indice_revista></indice_revista>
 
-            <secciones>
+            <secciones_revista>
 
-                <seccion numero_paginas="100">
-
-                    <contenido enlace_informacion="https:" />
-
-                </seccion>
-
-                <seccion numero_paginas="50">
+                <seccion_revista numero_paginas="100">
 
                     <contenido enlace_informacion="https:" />
 
-                </seccion>
+                </seccion_revista>
 
-                <seccion numero_paginas="50">
+                <seccion_revista numero_paginas="50">
 
                     <contenido enlace_informacion="https:" />
 
-                </seccion>
+                </seccion_revista>
 
-            </secciones>
+                <seccion_revista numero_paginas="50">
+
+                    <contenido enlace_informacion="https:" />
+
+                </seccion_revista>
+
+            </secciones_revista>
 
 
         </revista>
@@ -223,29 +246,29 @@
 
             <titulo></titulo>
             <numero_revista></numero_revista>
-            <indice_contenido></indice_contenido>
+            <indice_revista></indice_revista>
 
-            <secciones>
+            <secciones_revista>
 
-                <seccion numero_paginas="300">
-
-                    <contenido enlace_informacion="https:" />
-
-                </seccion>
-
-                <seccion numero_paginas="100">
+                <seccion_revista numero_paginas="300">
 
                     <contenido enlace_informacion="https:" />
 
-                </seccion>
+                </seccion_revista>
 
-                <seccion numero_paginas="100">
+                <seccion_revista numero_paginas="100">
 
                     <contenido enlace_informacion="https:" />
 
-                </seccion>
+                </seccion_revista>
 
-            </secciones>
+                <seccion_revista numero_paginas="100">
+
+                    <contenido enlace_informacion="https:" />
+
+                </seccion_revista>
+
+            </secciones_revista>
 
 
         </revista>
@@ -254,29 +277,29 @@
 
             <titulo></titulo>
             <numero_revista></numero_revista>
-            <indice_contenido></indice_contenido>
+            <indice_revista></indice_revista>
 
-            <secciones>
+            <secciones_revista>
 
-                <seccion numero_paginas="200">
-
-                    <contenido enlace_informacion="https:" />
-
-                </seccion>
-
-                <seccion numero_paginas="100">
+                <seccion_revista numero_paginas="200">
 
                     <contenido enlace_informacion="https:" />
 
-                </seccion>
+                </seccion_revista>
 
-                <seccion numero_paginas="100">
+                <seccion_revista numero_paginas="100">
 
                     <contenido enlace_informacion="https:" />
 
-                </seccion>
+                </seccion_revista>
 
-            </secciones>
+                <seccion_revista numero_paginas="100">
+
+                    <contenido enlace_informacion="https:" />
+
+                </seccion_revista>
+
+            </secciones_revista>
 
 
         </revista>
@@ -287,43 +310,11 @@
 
         <periodico id="P0001" tipo_clase="nacional" fecha_publicacion="10/07/2022">
 
-            <indice></indice>
+            <indice_periodico></indice_periodico>
 
-            <secciones>
+            <secciones_periodico>
 
-                <seccion tiposeccion="economica">
-
-                    <articulos>
-
-                        <articulo autor="JuanBrotons">
-
-                            <contenido enlace_informacion="https:" />
-
-                        </articulo>
-
-                        <articulo autor="JuanBrotons">
-
-                            <contenido enlace_informacion="https:" />
-
-                        </articulo>
-
-                        <articulo autor="JuanBrotons">
-
-                            <contenido enlace_informacion="https:" />
-
-                        </articulo>
-
-                        <articulo autor="JuanBrotons">
-
-                            <contenido enlace_informacion="https:" />
-
-                        </articulo>
-
-                    </articulos>
-
-                </seccion>
-
-                <seccion tiposeccion="opinion">
+                <seccion_periodico tiposeccion="economica">
 
                     <articulos>
 
@@ -353,52 +344,52 @@
 
                     </articulos>
 
-                </seccion>
+                </seccion_periodico>
 
-            </secciones>
+                <seccion_periodico tiposeccion="opinion">
+
+                    <articulos>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                    </articulos>
+
+                </seccion_periodico>
+
+            </secciones_periodico>
 
 
         </periodico>
 
         <periodico id="P0002" tipo_clase="internacional" fecha_publicacion="11/07/2022">
 
-            <indice></indice>
+            <indice_periodico></indice_periodico>
 
-            <secciones>
+            <secciones_periodico>
 
-                <seccion tiposeccion="deportes">
-
-                    <articulos>
-
-                        <articulo autor="JuanBrotons">
-
-                            <contenido enlace_informacion="https:" />
-
-                        </articulo>
-
-                        <articulo autor="JuanBrotons">
-
-                            <contenido enlace_informacion="https:" />
-
-                        </articulo>
-
-                        <articulo autor="JuanBrotons">
-
-                            <contenido enlace_informacion="https:" />
-
-                        </articulo>
-
-                        <articulo autor="JuanBrotons">
-
-                            <contenido enlace_informacion="https:" />
-
-                        </articulo>
-
-                    </articulos>
-
-                </seccion>
-
-                <seccion tiposeccion="nacional">
+                <seccion_periodico tiposeccion="deportes">
 
                     <articulos>
 
@@ -428,9 +419,9 @@
 
                     </articulos>
 
-                </seccion>
+                </seccion_periodico>
 
-                <seccion tiposeccion="internacional">
+                <seccion_periodico tiposeccion="nacional">
 
                     <articulos>
 
@@ -460,9 +451,41 @@
 
                     </articulos>
 
-                </seccion>
+                </seccion_periodico>
 
-            </secciones>
+                <seccion_periodico tiposeccion="internacional">
+
+                    <articulos>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                    </articulos>
+
+                </seccion_periodico>
+
+            </secciones_periodico>
 
 
         </periodico>
