@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+ <!DOCTYPE biblioteca [
+        <!ELEMENT biblioteca (libros, revistas,periodicos)>
+
+        <!ELEMENT libros (libro*)>
+
+        <!ELEMENT libro (titulo, indice, sinopsis,capitulos)>
+
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT indice (#PCDATA)>
+        <!ELEMENT sinopsis (#PCDATA)>
+ 
+        <!ELEMENT capitulos (capitulo*)>
+        
+        <!ELEMENT capitulo (titulo, contenido)>
+        <!--titulo lo declaramos anteriormente, es lo mismo-->
+        <!ELEMENT contenido (#PCDATA)>
+
+
+        <!ELEMENT revistas (revista*)>
+        
+
+]>
 <biblioteca>
 
 
