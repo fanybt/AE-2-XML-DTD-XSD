@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
  <!DOCTYPE biblioteca [
+
+ <!-- DEFINIMOS ELEMENTOS -->
+
         <!ELEMENT biblioteca (libros, revistas,periodicos)>
 
         
@@ -56,14 +59,18 @@
  <!ATTLIST revista tipo_clase (informatica | corazon | coches | investigacion | otras ) #REQUIRED>
  <!ATTLIST revista numero_paginas CDATA #REQUIRED>
  <!ATTLIST seccion_revista numero_paginas CDATA #REQUIRED>
+ <!ATTLIST contenido_seccion_revista enlace_informacion CDATA #REQUIRED>
 
-
-
-
-
+ <!ATTLIST periodico id ID #REQUIRED>
+ <!ATTLIST periodico tipo_clase (nacional | internacional) #REQUIRED>
+ <!ATTLIST periodico fecha_publicacion CDATA #REQUIRED>
+ <!ATTLIST seccion_periodico tiposeccion (economica | opinion | deportes | nacional | internacional) #REQUIRED>
+ <!ATTLIST articulo autor CDATA #REQUIRED>
+ <!ATTLIST contenido_articulo enlace_informacion CDATA #REQUIRED> 
 
 
 ]>
+
 <biblioteca>
 
 
@@ -337,7 +344,7 @@
 
                         <articulo autor="JuanBrotons">
 
-                            <_articulo enlace_informacion="https:" />
+                            <contenido_articulo enlace_informacion="https:" />
 
                         </articulo>
 
