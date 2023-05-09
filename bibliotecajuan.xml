@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca>
+
+
+<libros>
+
+  
+    
+    <libro id = "L0001" tipo_clase = "novela" numero_paginas = "200">
+      
+      <titulo></titulo>
+      <indice></indice>
+      <sinopsis></sinopsis>
+        <capitulos>
+
+            <capitulo numero_paginas = "100">
+        
+              <titulo>cdscsd</titulo>
+              <contenido enlace_informacion = "https:"/>
+      
+            </capitulo>
+
+            <capitulo numero_paginas = "60">
+         
+              <titulo>jnafsafna</titulo>
+              <contenido enlace_informacion = "https:"/>
+            </capitulo>
+
+            <capitulo numero_paginas = "40">
+        
+              <titulo>knddafna</titulo>
+              <contenido enlace_informacion = "https:"/>
+      
+            </capitulo>
+        
+        </capitulos>    
+
+    </libro>
+   
+
+</libros>
+
+<revistas>
+
+    <revista id = "R0001" tipo_clase = "informática" numero_paginas = "150">
+      
+      <titulo></titulo>
+      <numero_revista></numero_revista>
+      <indice_contenido></indice_contenido>
+        
+        <secciones>
+           
+            <seccion numero_paginas = "50">
+              
+              <contenido enlace_informacion = "https:"/>
+
+            </seccion>
+
+            <seccion numero_paginas = "50">
+              
+              <contenido enlace_informacion = "https:"/>
+
+            </seccion>
+
+            <seccion numero_paginas = "50">
+              
+              <contenido enlace_informacion = "https:"/>
+
+            </seccion>
+            
+        </secciones>
+  
+
+    </revista>
+
+</revistas>
+
+<periodicos>
+
+    <periodico id = "P0001" tipo_clase = "nacional" fecha_publicacion = "10/07/2022">
+     
+        <indice></indice>
+      
+        <secciones>
+          
+            <seccion tiposeccion = "economica">
+                
+                <articulos>
+                  
+                  <articulo autor = "JuanBrotons">
+
+                  <contenido enlace_informacion = "https:"/>
+              
+                  </articulo>
+
+                </articulos>
+            
+            </seccion>
+
+        </secciones>
+
+          
+      
+      
+    </periodico>
+
+</periodicos>
+  
+  
+
+
+</biblioteca>
