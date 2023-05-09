@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE biblioteca SYSTEM "DTDbiblioteca.dtd">
-<biblioteca>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "XSD_biblioteca.xsd">
     <libros>
         <libro id="L0001" tipo_clase="infantil" paginas="38"><!-- novela, infantil o didáctico -->
             <titulo>Siete días, 7 cuentos</titulo>
@@ -39,7 +38,7 @@
             <sinopsis>Uno para cada día! 7 fantásticos cuentos de Daniel Nesquens ilustrados por importantes Premios
             Nacionales de Ilustración.</sinopsis>
         </libro>
-        <libro id="L0002" tipo_clase="infantil" paginas="172"><!-- novela, infantil o didáctico -->
+        <libro id="L0002" tipo_clase="infantil" paginas="172">
             <titulo>Sólo tú puedes salvar a la humanidad</titulo>
             <capitulos>
                 <capitulo paginas_capitulo="10">
@@ -77,7 +76,7 @@
             le hará reflexionar sobre la guerra, la paz, la violencia injustificada, la igualdad entre los sexos,
             la solidaridad... y saldrá renovado de esta insólita aventura.</sinopsis>
         </libro>
-        <libro id="L0003" tipo_clase="novela" paginas="128"><!-- novela, infantil o didáctico -->
+        <libro id="L0003" tipo_clase="novela" paginas="128">
             <titulo>La metamorfosis</titulo>
             <capitulos>
                 <capitulo paginas_capitulo="90">
@@ -170,7 +169,7 @@
     </revistas>
 
     <periodicos>
-        <periodico id="P0001" tipo_clase="nacional" fecha_publicacion="08/05/2023"><!--nacionales e internacionales-->
+        <periodico id="P0001" tipo_clase="nacional" fecha_publicacion="2023-08-05"><!--nacionales e internacionales-->
             <secciones_per>
                 <seccion_per tipo_seccion="deportes"><!--económica, opinión, deportes, nacional o internacional-->
                     <articulos>
@@ -203,7 +202,7 @@
             </secciones_per>
             <indice_per></indice_per>
         </periodico>
-        <periodico id="P0002" tipo_clase="internacional" fecha_publicacion="07/05/2023"><!--nacionales e internacionales-->
+        <periodico id="P0002" tipo_clase="internacional" fecha_publicacion="2023-05-07"><!--nacionales e internacionales-->
             <secciones_per>
                 <seccion_per tipo_seccion="internacional"><!--económica, opinión, deportes, nacional o internacional-->
                     <articulos>
