@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE biblioteca SYSTEM "DTD_biblioteca.dtd">
+<!DOCTYPE biblioteca SYSTEM "DTDbiblioteca.dtd">
 <biblioteca>
     <libros>
         <libro id="L0001" tipo_clase="infantil" paginas="38"><!-- novela, infantil o didáctico -->
