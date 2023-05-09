@@ -81,4 +81,61 @@
     </sinopsis>
  
   </libro>
+
+ <revista id =" R0001 " tipo_clase="corazon" numero_paginas="50">
+    <titulo_r> Hola</titulo_r>
+    <numero_revista>1</numero_revista>
+    <indice_r>
+     1_David Bisbal y su nueva casa
+     2_Los reyes con su hija Sofia
+     3_Como cocinar como los famosos 
+    </indice_r>
+    <seccion numero_paginas="12">
+      <contenido_r enlace="https://www.elmundo.es/f5/comparte/2023/04/19/643fbe7de4d4d84e0c8b45b8.html"></contenido_r>
+    </seccion>
+   <seccion numero_paginas="14">
+     <contenido_r enlace="https://www.hola.com/"></contenido_r>
+    </seccion>
+    <seccion numero_paginas="14">
+     <contenido_r enlace="https://www.lecturas.com/recetas"></contenido_r>
+    </seccion>
+
+
+  </revista>
+  <revista id =" R0002 " tipo_clase="investigacion" numero_paginas="100">
+    <titulo_r> Science</titulo_r>
+    <numero_revista>12</numero_revista>
+    <indice_r>
+     1_Como afectara a la humanidad el gran apagón
+     2_El himalaya
+    </indice_r>
+    <seccion numero_paginas="24">
+      <contenido_r enlace= "https://www.science.org"/>
+    </seccion>
+    <seccion numero_paginas="30">
+      <contenido_r enlace= "https://www.science.org"/>
+    </seccion>
+
+  </revista>
+  <revista id =" R0003 " tipo_clase="coches" numero_paginas="10">
+    <titulo_r> Automovil</titulo_r>
+    <numero_revista>2</numero_revista>
+    <indice_r>
+     1_El nuevo BMW serie 3 Cabrio
+     2_El motor de inyeccion
+     3_Rutas moteras
+    </indice_r>
+    <seccion numero_paginas="20">
+      <contenido_r enlace= "https://www.autopista.es/noticias-motor/revista-automovil-522-ya-venta-probamos-en-exclusiva-ferrari-daytona-sp3-mclaren-artura_264825_102.html"/>
+    </seccion>
+    <seccion numero_paginas="30">
+      <contenido_r enlace= "https://www.bmw.es/es/coches-bmw.html?tl=sea-gl-ES_BMW_NEWCARS_CARLINE_SPA_BND_ALO-mix-miy-.-sech-BRAND_BND_CARLINE_NONE-.-p-bmw%20nuevos-.-."/>
+    </seccion>
+    <seccion numero_paginas="30">
+      <contenido_r enlace= "https://www.invictusapparel.es/rutas-moto-espana/"/>
+    </seccion>
+    
+
+  </revista>
+  
 </Biblioteca>
