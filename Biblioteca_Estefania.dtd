@@ -1,5 +1,5 @@
 
-<!ELEMENT Biblioteca (libro+,revista+,periodico)>
+<!ELEMENT Biblioteca (libro+,revista+,periodico+)>
 <!ELEMENT  libro (titulo,capitulo+,indice,sinopsis)>
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT capitulo (titulo,contenido)>
@@ -26,11 +26,15 @@
 <!ATTLIST seccion numero_paginas CDATA  #REQUIRED >
 <!ATTLIST contenido_r enlace CDATA  #REQUIRED >
 
-<!ELEMENT periodico (seccion_p,indice_p)>
+<!ELEMENT periodico (seccion_p+,indice_p)>
 <!ELEMENT seccion_p (articulo)>
+<!ELEMENT indice_p (#PCDATA)>
+<!ELEMENT articulo (contenido_p)>
+<!ELEMENT contenido_p (#PCDATA)>
 
-
+<!ATTLIST periodico id ID #REQUIRED>
 <!ATTLIST periodico tipo_clase (nacionales | internacionales) #REQUIRED>
 <!ATTLIST periodico fecha_publicacion CDATA #REQUIRED>
 <!ATTLIST seccion_p tipo_seccion (economica | opinion |deportes) #REQUIRED>
 <!ATTLIST articulo autor CDATA #REQUIRED>
+<!ATTLIST contenido_p enlace CDATA #REQUIRED>
