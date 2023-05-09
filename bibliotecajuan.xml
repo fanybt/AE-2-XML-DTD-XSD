@@ -27,8 +27,8 @@
         <!ELEMENT indice_revista (#PCDATA)>
         <!ELEMENT secciones_revista (seccion_revista*)>
         
-        <!ELEMENT seccion_revista (contenido)>
-        <!ELEMENT contenido (#PCDATA)>
+        <!ELEMENT seccion_revista (contenido_seccion_revista)>
+        <!ELEMENT contenido_seccion_revista (#PCDATA)>
 
 
         <!ELEMENT periodicos (periodico*)>
@@ -40,9 +40,26 @@
         <!ELEMENT seccion_periodico (articulos)>
         <!ELEMENT articulos (articulo*)>
 
-        <!ELEMENT articulo (contenido)>
+        <!ELEMENT articulo (contenido_articulo)>
+        <!ELEMENT contenido_articulo (#PCDATA)>
 
  
+ <!-- DEFINIMOS LOS ATRIBUTOS -->
+
+ <!ATTLIST libro id ID #REQUIRED>
+ <!ATTLIST libro tipo_clase (novela | infantil | didactico) #REQUIRED>
+ <!ATTLIST libro numero_paginas CDATA #REQUIRED>
+ <!ATTLIST capitulo numero_paginas CDATA #REQUIRED>
+ <!ATTLIST contenido_capitulo enlace_informacion CDATA #REQUIRED>
+
+ <!ATTLIST revista id ID #REQUIRED>
+ <!ATTLIST revista tipo_clase (informatica | corazon | coches | investigacion | otras ) #REQUIRED>
+ <!ATTLIST revista numero_paginas CDATA #REQUIRED>
+ <!ATTLIST seccion_revista numero_paginas CDATA #REQUIRED>
+
+
+
+
 
 
 
@@ -149,7 +166,7 @@
 
     <revistas>
 
-        <revista id="R0001" tipo_clase="informática" numero_paginas="300">
+        <revista id="R0001" tipo_clase="informatica" numero_paginas="300">
 
             <titulo></titulo>
             <numero_revista></numero_revista>
@@ -159,19 +176,19 @@
 
                 <seccion_revista numero_paginas="100">
 
-                    <contenido enlace_informacion="https:" />
+                    <contenido_seccion_revista enlace_informacion="https:" />
 
                 </seccion_revista>
 
                 <seccion_revista numero_paginas="100">
 
-                    <contenido enlace_informacion="https:" />
+                    <contenido_seccion_revista enlace_informacion="https:" />
 
                 </seccion_revista>
 
                 <seccion_revista numero_paginas="100">
 
-                    <contenido enlace_informacion="https:" />
+                    <contenido_seccion_revista enlace_informacion="https:" />
 
                 </seccion_revista>
 
@@ -190,19 +207,19 @@
 
                 <seccion_revista numero_paginas="60">
 
-                    <contenido enlace_informacion="https:" />
+                    <contenido_seccion_revista enlace_informacion="https:" />
 
                 </seccion_revista>
 
                 <seccion_revista numero_paginas="60">
 
-                    <contenido enlace_informacion="https:" />
+                    <contenido_seccion_revista enlace_informacion="https:" />
 
                 </seccion_revista>
 
                 <seccion_revista numero_paginas="60">
 
-                    <contenido enlace_informacion="https:" />
+                    <contenido_seccion_revista enlace_informacion="https:" />
 
                 </seccion_revista>
 
@@ -221,19 +238,19 @@
 
                 <seccion_revista numero_paginas="100">
 
-                    <contenido enlace_informacion="https:" />
+                    <contenido_seccion_revista enlace_informacion="https:" />
 
                 </seccion_revista>
 
                 <seccion_revista numero_paginas="50">
 
-                    <contenido enlace_informacion="https:" />
+                    <contenido_seccion_revista enlace_informacion="https:" />
 
                 </seccion_revista>
 
                 <seccion_revista numero_paginas="50">
 
-                    <contenido enlace_informacion="https:" />
+                    <contenido_seccion_revista enlace_informacion="https:" />
 
                 </seccion_revista>
 
@@ -252,19 +269,19 @@
 
                 <seccion_revista numero_paginas="300">
 
-                    <contenido enlace_informacion="https:" />
+                    <contenido_seccion_revista enlace_informacion="https:" />
 
                 </seccion_revista>
 
                 <seccion_revista numero_paginas="100">
 
-                    <contenido enlace_informacion="https:" />
+                    <contenido_seccion_revista enlace_informacion="https:" />
 
                 </seccion_revista>
 
                 <seccion_revista numero_paginas="100">
 
-                    <contenido enlace_informacion="https:" />
+                    <contenido_seccion_revista enlace_informacion="https:" />
 
                 </seccion_revista>
 
@@ -283,19 +300,19 @@
 
                 <seccion_revista numero_paginas="200">
 
-                    <contenido enlace_informacion="https:" />
+                    <contenido_seccion_revista enlace_informacion="https:" />
 
                 </seccion_revista>
 
                 <seccion_revista numero_paginas="100">
 
-                    <contenido enlace_informacion="https:" />
+                    <contenido_seccion_revista enlace_informacion="https:" />
 
                 </seccion_revista>
 
                 <seccion_revista numero_paginas="100">
 
-                    <contenido enlace_informacion="https:" />
+                    <contenido_seccion_revista enlace_informacion="https:" />
 
                 </seccion_revista>
 
@@ -320,25 +337,25 @@
 
                         <articulo autor="JuanBrotons">
 
-                            <contenido enlace_informacion="https:" />
+                            <_articulo enlace_informacion="https:" />
 
                         </articulo>
 
                         <articulo autor="JuanBrotons">
 
-                            <contenido enlace_informacion="https:" />
+                            <contenido_articulo enlace_informacion="https:" />
 
                         </articulo>
 
                         <articulo autor="JuanBrotons">
 
-                            <contenido enlace_informacion="https:" />
+                            <contenido_articulo enlace_informacion="https:" />
 
                         </articulo>
 
                         <articulo autor="JuanBrotons">
 
-                            <contenido enlace_informacion="https:" />
+                            <contenido_articulo enlace_informacion="https:" />
 
                         </articulo>
 
@@ -352,25 +369,25 @@
 
                         <articulo autor="JuanBrotons">
 
-                            <contenido enlace_informacion="https:" />
+                            <contenido_articulo enlace_informacion="https:" />
 
                         </articulo>
 
                         <articulo autor="JuanBrotons">
 
-                            <contenido enlace_informacion="https:" />
+                            <contenido_articulo enlace_informacion="https:" />
 
                         </articulo>
 
                         <articulo autor="JuanBrotons">
 
-                            <contenido enlace_informacion="https:" />
+                            <contenido_articulo enlace_informacion="https:" />
 
                         </articulo>
 
                         <articulo autor="JuanBrotons">
 
-                            <contenido enlace_informacion="https:" />
+                            <contenido_articulo enlace_informacion="https:" />
 
                         </articulo>
 
@@ -395,25 +412,25 @@
 
                         <articulo autor="JuanBrotons">
 
-                            <contenido enlace_informacion="https:" />
+                            <contenido_articulo enlace_informacion="https:" />
 
                         </articulo>
 
                         <articulo autor="JuanBrotons">
 
-                            <contenido enlace_informacion="https:" />
+                            <contenido_articulo enlace_informacion="https:" />
 
                         </articulo>
 
                         <articulo autor="JuanBrotons">
 
-                            <contenido enlace_informacion="https:" />
+                            <contenido_articulo enlace_informacion="https:" />
 
                         </articulo>
 
                         <articulo autor="JuanBrotons">
 
-                            <contenido enlace_informacion="https:" />
+                            <contenido_articulo enlace_informacion="https:" />
 
                         </articulo>
 
@@ -427,25 +444,25 @@
 
                         <articulo autor="JuanBrotons">
 
-                            <contenido enlace_informacion="https:" />
+                            <contenido_articulo enlace_informacion="https:" />
 
                         </articulo>
 
                         <articulo autor="JuanBrotons">
 
-                            <contenido enlace_informacion="https:" />
+                            <contenido_articulo enlace_informacion="https:" />
 
                         </articulo>
 
                         <articulo autor="JuanBrotons">
 
-                            <contenido enlace_informacion="https:" />
+                            <contenido_articulo enlace_informacion="https:" />
 
                         </articulo>
 
                         <articulo autor="JuanBrotons">
 
-                            <contenido enlace_informacion="https:" />
+                            <contenido_articulo enlace_informacion="https:" />
 
                         </articulo>
 
@@ -459,25 +476,25 @@
 
                         <articulo autor="JuanBrotons">
 
-                            <contenido enlace_informacion="https:" />
+                            <contenido_articulo enlace_informacion="https:" />
 
                         </articulo>
 
                         <articulo autor="JuanBrotons">
 
-                            <contenido enlace_informacion="https:" />
+                            <contenido_articulo enlace_informacion="https:" />
 
                         </articulo>
 
                         <articulo autor="JuanBrotons">
 
-                            <contenido enlace_informacion="https:" />
+                            <contenido_articulo enlace_informacion="https:" />
 
                         </articulo>
 
                         <articulo autor="JuanBrotons">
 
-                            <contenido enlace_informacion="https:" />
+                            <contenido_articulo enlace_informacion="https:" />
 
                         </articulo>
 
