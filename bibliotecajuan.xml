@@ -3,111 +3,106 @@
 <biblioteca>
 
 
-<libros>
+    <libros>
 
-  
-    
-    <libro id = "L0001" tipo_clase = "novela" numero_paginas = "200">
-      
-      <titulo></titulo>
-      <indice></indice>
-      <sinopsis></sinopsis>
-        <capitulos>
 
-            <capitulo numero_paginas = "100">
-        
-              <titulo>cdscsd</titulo>
-              <contenido enlace_informacion = "https:"/>
-      
-            </capitulo>
+        <libro id="L0001" tipo_clase="novela" numero_paginas="200">
 
-            <capitulo numero_paginas = "60">
-         
-              <titulo>jnafsafna</titulo>
-              <contenido enlace_informacion = "https:"/>
-            </capitulo>
+            <titulo></titulo>
+            <indice></indice>
+            <sinopsis></sinopsis>
+            <capitulos>
 
-            <capitulo numero_paginas = "40">
-        
-              <titulo>knddafna</titulo>
-              <contenido enlace_informacion = "https:"/>
-      
-            </capitulo>
-        
-        </capitulos>    
+                <capitulo numero_paginas="100">
 
-    </libro>
-   
+                    <titulo>cdscsd</titulo>
+                    <contenido enlace_informacion="https:" />
 
-</libros>
+                </capitulo>
 
-<revistas>
+                <capitulo numero_paginas="60">
 
-    <revista id = "R0001" tipo_clase = "informática" numero_paginas = "150">
-      
-      <titulo></titulo>
-      <numero_revista></numero_revista>
-      <indice_contenido></indice_contenido>
-        
-        <secciones>
-           
-            <seccion numero_paginas = "50">
-              
-              <contenido enlace_informacion = "https:"/>
+                    <titulo>jnafsafna</titulo>
+                    <contenido enlace_informacion="https:" />
+                </capitulo>
 
-            </seccion>
+                <capitulo numero_paginas="40">
 
-            <seccion numero_paginas = "50">
-              
-              <contenido enlace_informacion = "https:"/>
+                    <titulo>knddafna</titulo>
+                    <contenido enlace_informacion="https:" />
 
-            </seccion>
+                </capitulo>
 
-            <seccion numero_paginas = "50">
-              
-              <contenido enlace_informacion = "https:"/>
+            </capitulos>
 
-            </seccion>
-            
-        </secciones>
-  
+        </libro>
 
-    </revista>
 
-</revistas>
+    </libros>
 
-<periodicos>
+    <revistas>
 
-    <periodico id = "P0001" tipo_clase = "nacional" fecha_publicacion = "10/07/2022">
-     
-        <indice></indice>
-      
-        <secciones>
-          
-            <seccion tiposeccion = "economica">
-                
-                <articulos>
-                  
-                  <articulo autor = "JuanBrotons">
+        <revista id="R0001" tipo_clase="informática" numero_paginas="150">
 
-                  <contenido enlace_informacion = "https:"/>
-              
-                  </articulo>
+            <titulo></titulo>
+            <numero_revista></numero_revista>
+            <indice_contenido></indice_contenido>
 
-                </articulos>
-            
-            </seccion>
+            <secciones>
 
-        </secciones>
+                <seccion numero_paginas="50">
 
-          
-      
-      
-    </periodico>
+                    <contenido enlace_informacion="https:" />
 
-</periodicos>
-  
-  
+                </seccion>
+
+                <seccion numero_paginas="50">
+
+                    <contenido enlace_informacion="https:" />
+
+                </seccion>
+
+                <seccion numero_paginas="50">
+
+                    <contenido enlace_informacion="https:" />
+
+                </seccion>
+
+            </secciones>
+
+
+        </revista>
+
+    </revistas>
+
+    <periodicos>
+
+        <periodico id="P0001" tipo_clase="nacional" fecha_publicacion="10/07/2022">
+
+            <indice></indice>
+
+            <secciones>
+
+                <seccion tiposeccion="economica">
+
+                    <articulos>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido enlace_informacion="https:" />
+
+                        </articulo>
+
+                    </articulos>
+
+                </seccion>
+
+            </secciones>
+
+
+        </periodico>
+
+    </periodicos>
 
 
 </biblioteca>
