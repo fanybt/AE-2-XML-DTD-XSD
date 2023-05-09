@@ -6,31 +6,31 @@
             <titulo>Siete días, 7 cuentos</titulo>
             <capitulos>
                 <capitulo paginas_capitulo="4">
-                    <titulo>Mi tío escultor</titulo>
+                    <titulo_cap>Mi tío escultor</titulo_cap>
                     <contenido informacion="https://www.margenlibros.com/libro/siete-dias-7-cuentos_120854"></contenido>
                 </capitulo>
                 <capitulo paginas_capitulo="4">
-                    <titulo>Un corte de pelo</titulo>
+                    <titulo_cap>Un corte de pelo</titulo_cap>
                     <contenido informacion="https://www.margenlibros.com/libro/siete-dias-7-cuentos_120854"></contenido>
                 </capitulo>
                 <capitulo paginas_capitulo="4">
-                    <titulo>Una calamidad de robot</titulo>
+                    <titulo_cap>Una calamidad de robot</titulo_cap>
                     <contenido informacion="https://www.margenlibros.com/libro/siete-dias-7-cuentos_120854"></contenido>
                 </capitulo>
                 <capitulo paginas_capitulo="4">
-                    <titulo>El hombre más serio del mundo</titulo>
+                    <titulo_cap>El hombre más serio del mundo</titulo_cap>
                     <contenido informacion="https://www.margenlibros.com/libro/siete-dias-7-cuentos_120854"></contenido>
                 </capitulo>
                 <capitulo paginas_capitulo="4">
-                    <titulo>Ranas, príncipes y princesas</titulo>
+                    <titulo_cap>Ranas, príncipes y princesas</titulo_cap>
                     <contenido informacion="https://www.margenlibros.com/libro/siete-dias-7-cuentos_120854"></contenido>
                 </capitulo>
                 <capitulo paginas_capitulo="4">
-                    <titulo>Una redacción salvaje</titulo>
+                    <titulo_cap>Una redacción salvaje</titulo_cap>
                     <contenido informacion="https://www.margenlibros.com/libro/siete-dias-7-cuentos_120854"></contenido>
                 </capitulo>
                 <capitulo paginas_capitulo="3">
-                    <titulo>Una memoria prodigiosa</titulo>
+                    <titulo_cap>Una memoria prodigiosa</titulo_cap>
                     <contenido informacion="https://www.margenlibros.com/libro/siete-dias-7-cuentos_120854"></contenido>
                 </capitulo>
             </capitulos>
@@ -43,27 +43,27 @@
             <titulo>Sólo tú puedes salvar a la humanidad</titulo>
             <capitulos>
                 <capitulo paginas_capitulo="10">
-                    <titulo>El héroe con mil vidas extra</titulo>
+                    <titulo_cap>El héroe con mil vidas extra</titulo_cap>
                     <contenido informacion="https://www.casadellibro.com/libro-solo-tu-puedes-salvar-a-la-humanidad/9788420448404/9016"></contenido>
                 </capitulo>
                 <capitulo paginas_capitulo="10">
-                    <titulo>Para jugar, accionar los mandos</titulo>
+                    <titulo_cap>Para jugar, accionar los mandos</titulo_cap>
                     <contenido informacion="https://www.casadellibro.com/libro-solo-tu-puedes-salvar-a-la-humanidad/9788420448404/9016"></contenido>
                 </capitulo>
                 <capitulo paginas_capitulo="15">
-                    <titulo>Cereales asesinos</titulo>
+                    <titulo_cap>Cereales asesinos</titulo_cap>
                     <contenido informacion="https://www.casadellibro.com/libro-solo-tu-puedes-salvar-a-la-humanidad/9788420448404/9016"></contenido>
                 </capitulo>
                 <capitulo paginas_capitulo="14">
-                    <titulo>Nadie muere de verdad</titulo>
+                    <titulo_cap>Nadie muere de verdad</titulo_cap>
                     <contenido informacion="https://www.casadellibro.com/libro-solo-tu-puedes-salvar-a-la-humanidad/9788420448404/9016"></contenido>
                 </capitulo>
                 <capitulo paginas_capitulo="12">
-                    <titulo>Si no lo haces tú, ¿quién lo hará?</titulo>
+                    <titulo_cap>Si no lo haces tú, ¿quién lo hará?</titulo_cap>
                     <contenido informacion="https://www.casadellibro.com/libro-solo-tu-puedes-salvar-a-la-humanidad/9788420448404/9016"></contenido>
                 </capitulo>
                 <capitulo paginas_capitulo="17">
-                    <titulo>Porciones de pollo en el espacio</titulo>
+                    <titulo_cap>Porciones de pollo en el espacio</titulo_cap>
                     <contenido informacion="https://www.casadellibro.com/libro-solo-tu-puedes-salvar-a-la-humanidad/9788420448404/9016"></contenido>
                 </capitulo>
             </capitulos>
@@ -81,15 +81,15 @@
             <titulo>La metamorfosis</titulo>
             <capitulos>
                 <capitulo paginas_capitulo="90">
-                    <titulo>La metamorfosis</titulo>
+                    <titulo_cap>La metamorfosis</titulo_cap>
                     <contenido informacion="https://www.alianzaeditorial.es/primer_capitulo/la-metamorfosis.pdf"></contenido>
                 </capitulo>
                 <capitulo paginas_capitulo="20">
-                    <titulo>Un artista del hambre</titulo>
+                    <titulo_cap>Un artista del hambre</titulo_cap>
                     <contenido informacion="https://www.alianzaeditorial.es/libro/bibliotecas-de-autor/la-metamorfosis-franz-kafka-9788420651361/"></contenido>
                 </capitulo>
                 <capitulo paginas_capitulo="10">
-                    <titulo>Un artista del trapecio</titulo>
+                    <titulo_cap>Un artista del trapecio</titulo_cap>
                     <contenido informacion="https://www.alianzaeditorial.es/libro/bibliotecas-de-autor/la-metamorfosis-franz-kafka-9788420651361/"></contenido>
                 </capitulo>
             </capitulos>

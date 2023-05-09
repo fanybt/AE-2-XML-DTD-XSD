@@ -14,11 +14,11 @@
 <!ELEMENT indice (#PCDATA)>
 <!ELEMENT sinopsis (#PCDATA)>
 
-<!ELEMENT capitulo (titulo, contenido)>
+<!ELEMENT capitulo (titulo_cap, contenido)>
 
-<!ATTLIST capitulo paginas_capitulo CDATA #IMPLIED>
+<!ATTLIST capitulo paginas_capitulo CDATA #REQUIRED>
 
-<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT titulo_cap (#PCDATA)>
 <!ELEMENT contenido (#PCDATA)>
 
 <!ATTLIST contenido informacion CDATA #REQUIRED>
@@ -43,7 +43,7 @@
 
 <!ELEMENT contenido (#PCDATA)>
 
-<!ATTLIST contenido informacion CDATA #IMPLIED>
+<!ATTLIST contenido informacion CDATA #REQUIRED>
 
 <!-- Elementos PERIODICOS -->
 <!ELEMENT periodicos (periodico+)>
