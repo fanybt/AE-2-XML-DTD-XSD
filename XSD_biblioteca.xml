@@ -108,7 +108,7 @@
     <revistas>
         <revista id="R0001" tipo_clase="investigacion" paginas="298"><!--informática, corazón, coches, investigación y otras -->
             <titulo_rev>Revista de Investigación Educativa</titulo_rev>
-            <numero_revista>Vol. 41, Núm. 1</numero_revista>
+            <numero_revista>Volumen 41, Número 1</numero_revista>
             <indice_rev>Educating the Youth to Develop Life Purpose: An Eco-systemic Approach, 15-31.
             Evaluación de la competencia digital del alumnado de Educación Primaria, 33-50.
             Análisis de la autopercepción de la competencia digital docente en la formación
@@ -134,7 +134,7 @@
                 </seccion>
             </secciones>
         </revista>
-        <revista id="R0002" tipo_clase="informatica" paginas="100"><!--informática, corazón, coches, investigación y otras -->
+        <revista id="R0002" tipo_clase="informatica" paginas="100">
             <titulo_rev>Revista de tecnología e informática histórica</titulo_rev>
             <numero_revista>Volumen 2, Número 1</numero_revista>
             <indice_rev>1 Descifrando la mecánica del cielo. El mecanismo de Anticitera

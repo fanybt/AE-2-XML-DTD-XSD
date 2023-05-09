@@ -1,4 +1,5 @@
-<?xml version="1.0"?><!-- No utilizo el prefijo xs: por no alargar mucho el documento -->
+<?xml version="1.0"?>
+<!-- No utilizo el prefijo xs: por no alargar mucho el documento -->
 <schema xmlns="http://www.w3.org/2001/XMLSchema">
     <element name="biblioteca">
         <complexType>
@@ -6,10 +7,11 @@
                 <element name="libros">
                     <complexType>
                         <sequence>
+                            <!-- Mínimo debe haber un libro y máximo infinitos -->
                             <element name="libro" minOccurs="1" maxOccurs="unbounded">
                                 <complexType>
                                     <sequence>
-                                        <!-- El titulo tiene una restricción de mínimo 2 caracteres de longitud -->
+                                        <!-- El titulo del libro tiene una restricción de mínimo 2 caracteres de longitud -->
                                         <element name="titulo">
                                             <simpleType>
                                                 <restriction base="string">
@@ -20,6 +22,7 @@
                                         <element name="capitulos">
                                             <complexType>
                                                 <sequence>
+                                                    <!-- El elemento capitulo puede estar entre ninguna e infinitas veces -->
                                                     <element name="capitulo" minOccurs="0" maxOccurs="unbounded">
                                                         <complexType>
                                                             <sequence>
@@ -28,7 +31,7 @@
                                                                     <complexType>
                                                                         <simpleContent>
                                                                             <extension base="string">
-                                                                                <attribute name="informacion"></attribute>
+                                                                                <attribute name="informacion" type="string"></attribute>
                                                                             </extension>
                                                                         </simpleContent>
                                                                     </complexType>    
@@ -40,11 +43,21 @@
                                                 </sequence>
                                             </complexType>
                                         </element>
-                                        <element name="indice" type="string"></element>
+                                        <!-- He decidido poner el índice optativo, puede haber 0 o 1 -->
+                                        <element name="indice" type="string" minOccurs="0" maxOccurs="1"></element>
                                         <element name="sinopsis" type="string"></element>
                                     </sequence>
-                                    <attribute name="id"></attribute>
-                                    <attribute name="tipo_clase"><!-- Restricción de tipo novela, infantil o didáctico -->
+                                    <!-- Atributo id de libro es obligatorio -->
+                                    <attribute name="id" use="required">
+                                        <simpleType>
+                                            <restriction base="string">
+                                                <!-- Atributo id empieza con L y 4 dígitos que estén en ese rango-->
+                                                <pattern value="L[0-9]{4}"></pattern>
+                                            </restriction>
+                                        </simpleType>
+                                    </attribute>
+                                    <!-- Atributo tipo_clase de libro puede ser: novela, infantil o didáctico -->
+                                    <attribute name="tipo_clase">
                                         <simpleType>
                                             <restriction base="string">
                                                 <enumeration value="novela"></enumeration>
@@ -61,11 +74,77 @@
                 </element>
 
                 <element name="revistas">
-                
+                    <complexType>
+                        <sequence>
+                            <!-- Mínimo debe haber una revista y máximo infinitas -->
+                            <element name="revista" minOccurs="1" maxOccurs="unbounded">
+                                <complexType>
+                                    <sequence>
+                                        <!-- El titulo de la revista tiene una restricción de mínimo 2 caracteres de longitud -->
+                                        <element name="titulo_rev">
+                                            <simpleType>
+                                                <restriction base="string">
+                                                    <minLength value="2" />
+                                                </restriction>  
+                                            </simpleType>
+                                        </element>
+                                        <element name="numero_revista" type="string"></element>
+                                        <!-- He decidido poner el índice optativo, puede haber aparecer o no -->
+                                        <element name="indice_rev" type="string" minOccurs="0" maxOccurs="1"></element>
+                                        <element name="secciones">
+                                            <complexType>
+                                                <sequence>
+                                                    <!-- El elemento seccion puede estar entre 1 e infinitas veces -->
+                                                    <element name="seccion" minOccurs="1" maxOccurs="unbounded">
+                                                        <complexType>
+                                                            <sequence>
+                                                                <element name="contenido_rev">
+                                                                    <complexType>
+                                                                        <simpleContent>
+                                                                            <extension base="string">
+                                                                                <attribute name="informacion" type="string"></attribute>
+                                                                            </extension>
+                                                                        </simpleContent>
+                                                                    </complexType>
+                                                                </element>
+                                                            </sequence>
+                                                            <attribute name="paginas" type="integer"></attribute>
+                                                        </complexType>
+                                                    </element>
+                                                </sequence>
+                                            </complexType>
+                                        </element>
+                                    </sequence>
+                                    <!-- El atributo id es obligatorio -->
+                                    <attribute name="id" use="required">
+                                        <simpleType>
+                                            <restriction base="string">
+                                                <!-- Atributo id empieza con R y 4 dígitos que estén en ese rango-->
+                                                <pattern value="R[0-9]{4}"></pattern>
+                                            </restriction>
+                                        </simpleType>
+                                    </attribute>
+                                    <!--El tipo puede ser: informática, corazón, coches, investigación y otras -->
+                                    <attribute name="tipo_clase">
+                                        <simpleType>
+                                            <restriction base="string">
+                                                <enumeration value="informatica"></enumeration>
+                                                <enumeration value="corazon"></enumeration>
+                                                <enumeration value="coches"></enumeration>
+                                                <enumeration value="investigacion"></enumeration>
+                                                <enumeration value="otras"></enumeration>
+                                            </restriction>
+                                        </simpleType>
+                                    </attribute>
+                                    <attribute name="paginas" type="integer"></attribute>
+                                </complexType>
+                            </element>
+                        </sequence>
+                    </complexType>
                 </element>
 
                 <element name="periodicos">
-                
+                    
                 </element>
             </sequence>
         </complexType>
