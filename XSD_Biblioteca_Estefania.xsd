@@ -4,7 +4,7 @@
    <element name="Biblioteca">
       <complexType>
          <sequence>
-            <element name ="libros">
+              <element name ="libros">
                   <complexType>
                      <sequence>
                         <element name="libro"  minOccurs="1" maxOccurs="unbounded"> 
@@ -56,7 +56,7 @@
                          </element>
 
                      </sequence>
-                  </complexType>
+                </complexType>
               </element>
               <element name ="revistas">
                   <complexType>
@@ -141,19 +141,19 @@
                                                         <sequence>
                                                            <element name ="contenido_p" >
                                                              <complexType>
-                                                               <simpleContent>
-                                                                  <extension base="string">
-                                                                      <attribute name="enlace" type="string"/>
+                                                                 <simpleContent>
+                                                                     <extension base="string">
+                                                                         <attribute name="enlace" type="string"/>
                                                                     
-                                                                  </extension>
+                                                                     </extension>
                                                                   
                                                                   
-                                                               </simpleContent>
+                                                                  </simpleContent>
                                                               
-                                                             </complexType>
+                                                               </complexType>
                                                              
                                                            
-                                                           </element>
+                                                            </element>
                                                         </sequence>
                                                         <attribute name ="autor" type="String"/>
                                                       </complexType>
@@ -192,8 +192,8 @@
                   </complexType>
               </element>
                
-                     </sequence>
-                  </complexType>
+                  
+                  
             </element>
          </sequence>
       </complexType>
