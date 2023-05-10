@@ -4,9 +4,20 @@
   <element name="Biblioteca">
        <complexType>
           <sequence>
-              <element name ="libro">
+              <element name ="libro_1">
                   <complexType>
                      <sequence>
+                        <element name="titulo" type="string"> 
+                          <complexType>
+                            
+
+                           
+                          </complexType>
+                            
+                             
+                            
+
+                        </element>
 
                      </sequence>
                   </complexType>
