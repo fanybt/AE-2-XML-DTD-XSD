@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+ <!--elemento raiz Biblioteca-->
+  <element name="Biblioteca">
+       <complexType>
+          <sequence>
+              <element name ="libro">
+                  <complexType>
+                     <sequence>
+
+                     </sequence>
+                  </complexType>
+              </element>
+         </sequence>
+       </complexType>
+  </element>
+
+
+
+
+
+
+</schema>
