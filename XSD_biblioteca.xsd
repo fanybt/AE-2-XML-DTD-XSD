@@ -4,6 +4,7 @@
     <element name="biblioteca">
         <complexType>
             <sequence>
+                <!-- LIBROS -->
                 <element name="libros">
                     <complexType>
                         <sequence>
@@ -73,6 +74,7 @@
                     </complexType>
                 </element>
 
+                <!-- REVISTAS -->
                 <element name="revistas">
                     <complexType>
                         <sequence>
@@ -143,8 +145,89 @@
                     </complexType>
                 </element>
 
+                <!-- PERIODICOS -->
                 <element name="periodicos">
-                    
+                    <complexType>
+                        <sequence>
+                            <!-- Mínimo debe haber un periódico y máximo infinitos -->
+                            <element name="periodico" minOccurs="1" maxOccurs="unbounded">
+                                <complexType>
+                                    <sequence>
+                                        <element name="secciones_per">
+                                            <complexType>
+                                                <sequence>
+                                                    <!-- Pueden haber entre 1 y muchos artículos -->
+                                                    <element name="seccion_per" minOccurs="1" maxOccurs="unbounded">
+                                                        <complexType>
+                                                            <sequence>
+                                                                <element name="articulos">
+                                                                    <complexType>
+                                                                        <sequence>
+                                                                            <!-- Pueden haber entre 1 y muchos artículos -->
+                                                                            <element name="articulo" minOccurs="1" maxOccurs="unbounded">
+                                                                                <complexType>
+                                                                                    <sequence>
+                                                                                        <element name="contenido_per">
+                                                                                            <complexType>
+                                                                                                <simpleContent>
+                                                                                                    <extension base="string">
+                                                                                                        <attribute name="informacion" type="string"></attribute>
+                                                                                                    </extension>
+                                                                                                </simpleContent>
+                                                                                            </complexType>
+                                                                                        </element>
+                                                                                    </sequence>
+                                                                                    <attribute name="autor" type="string"></attribute>
+                                                                                </complexType>
+                                                                            </element>
+                                                                        </sequence>
+                                                                    </complexType>
+                                                                </element>
+                                                            </sequence>
+                                                            <!-- Tipo de sección: económica, opinión, deportes, nacional o internacional-->
+                                                            <attribute name="tipo_seccion">
+                                                                <simpleType>
+                                                                    <restriction base="string">
+                                                                        <enumeration value="economica" />
+                                                                        <enumeration value="opinion" />
+                                                                        <enumeration value="deportes" />
+                                                                        <enumeration value="nacional" />
+                                                                        <enumeration value="internacional" />
+                                                                    </restriction>
+                                                                </simpleType>
+                                                            </attribute>
+                                                        </complexType>
+                                                    </element>
+                                                </sequence>
+                                            </complexType>
+                                        </element>
+                                        <!-- He decidido poner el índice optativo, puede haber aparecer o no -->
+                                        <element name="indice_per" type="string" minOccurs="0" maxOccurs="1"></element>
+                                    </sequence>
+                                    <!-- El atributo id es obligatorio -->
+                                    <attribute name="id" use="required">
+                                        <simpleType>
+                                            <restriction base="string">
+                                                <!-- Atributo id empieza con P y 4 dígitos que estén en ese rango-->
+                                                <pattern value="P[0-9]{4}"></pattern>
+                                            </restriction>
+                                        </simpleType>
+                                    </attribute>
+                                    <!--El tipo puede ser: nacionales o iternacionales -->
+                                    <attribute name="tipo_clase">
+                                        <simpleType>
+                                            <restriction base="string">
+                                                <enumeration value="nacionales" />
+                                                <enumeration value="internacionales" />
+                                            </restriction>
+                                        </simpleType>
+                                    </attribute>
+                                    <!-- Fecha de publicación es tipo date -->
+                                    <attribute name="fecha_publicacion" type="date" />
+                                </complexType>
+                            </element>
+                        </sequence>
+                    </complexType>
                 </element>
             </sequence>
         </complexType>

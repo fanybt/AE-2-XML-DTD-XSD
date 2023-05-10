@@ -169,7 +169,7 @@
     </revistas>
 
     <periodicos>
-        <periodico id="P0001" tipo_clase="nacional" fecha_publicacion="2023-08-05"><!--nacionales e internacionales-->
+        <periodico id="P0001" tipo_clase="nacionales" fecha_publicacion="2023-08-05"><!--nacionales e internacionales-->
             <secciones_per>
                 <seccion_per tipo_seccion="deportes"><!--económica, opinión, deportes, nacional o internacional-->
                     <articulos>
@@ -200,11 +200,11 @@
                     </articulos>
                 </seccion_per>
             </secciones_per>
-            <indice_per></indice_per>
+            <indice_per>Hay índice</indice_per>
         </periodico>
-        <periodico id="P0002" tipo_clase="internacional" fecha_publicacion="2023-05-07"><!--nacionales e internacionales-->
+        <periodico id="P0002" tipo_clase="internacionales" fecha_publicacion="2023-05-07">
             <secciones_per>
-                <seccion_per tipo_seccion="internacional"><!--económica, opinión, deportes, nacional o internacional-->
+                <seccion_per tipo_seccion="internacional">
                     <articulos>
                         <articulo autor="Alberto Romero Blanco">
                             <contenido_per informacion="https://www.bbc.com/mundo/noticias-65311304">
@@ -226,7 +226,7 @@
                     </articulos>
                 </seccion_per>
             </secciones_per>
-            <indice_per></indice_per>
+            <!-- No hay índice -->
         </periodico>
     </periodicos>
 </biblioteca>
