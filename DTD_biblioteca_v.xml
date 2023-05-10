@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation= "XSD_biblioteca.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE biblioteca SYSTEM "DTD_biblioteca_v.dtd">
+<biblioteca>
     <libros>
         <libro id="L0001" tipo_clase="infantil" paginas="38"><!-- novela, infantil o didáctico -->
             <titulo>Siete días, 7 cuentos</titulo>
@@ -108,7 +109,7 @@
     <revistas>
         <revista id="R0001" tipo_clase="investigacion" paginas="298"><!--informática, corazón, coches, investigación y otras -->
             <titulo_rev>Revista de Investigación Educativa</titulo_rev>
-            <numero_revista>Volumen 41, Número 1</numero_revista>
+            <numero_revista>Vol. 41, Núm. 1</numero_revista>
             <indice_rev>Educating the Youth to Develop Life Purpose: An Eco-systemic Approach, 15-31.
             Evaluación de la competencia digital del alumnado de Educación Primaria, 33-50.
             Análisis de la autopercepción de la competencia digital docente en la formación
@@ -169,7 +170,7 @@
     </revistas>
 
     <periodicos>
-        <periodico id="P0001" tipo_clase="nacionales" fecha_publicacion="2023-08-05"><!--nacionales e internacionales-->
+        <periodico id="P0001" tipo_clase="nacional" fecha_publicacion="08/05/2023"><!--nacionales e internacionales-->
             <secciones_per>
                 <seccion_per tipo_seccion="deportes"><!--económica, opinión, deportes, nacional o internacional-->
                     <articulos>
@@ -200,9 +201,9 @@
                     </articulos>
                 </seccion_per>
             </secciones_per>
-            <indice_per>Hay índice</indice_per>
+            <indice_per></indice_per>
         </periodico>
-        <periodico id="P0002" tipo_clase="internacionales" fecha_publicacion="2023-05-07">
+        <periodico id="P0002" tipo_clase="internacional" fecha_publicacion="07/05/2023">
             <secciones_per>
                 <seccion_per tipo_seccion="internacional">
                     <articulos>
@@ -226,7 +227,7 @@
                     </articulos>
                 </seccion_per>
             </secciones_per>
-            <!-- No hay índice -->
+            <indice_per></indice_per>
         </periodico>
     </periodicos>
 </biblioteca>
