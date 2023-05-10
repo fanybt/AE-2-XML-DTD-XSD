@@ -4,7 +4,7 @@
    <element name="Biblioteca">
       <complexType>
          <sequence>
-              <element name ="libros">
+               <element name ="libros">
                   <complexType>
                      <sequence>
                         <element name="libro"  minOccurs="1" maxOccurs="unbounded"> 
@@ -53,10 +53,10 @@
                            </complexType>
                             
                              
-                         </element>
+                        </element>
 
                      </sequence>
-                </complexType>
+                 </complexType>
               </element>
               <element name ="revistas">
                   <complexType>
@@ -186,7 +186,7 @@
                            </complexType>
                             
                              
-                         </element>
+                        </element>
 
                      </sequence>
                   </complexType>
@@ -194,7 +194,7 @@
                
                   
                   
-            </element>
+            
          </sequence>
       </complexType>
    </element>
