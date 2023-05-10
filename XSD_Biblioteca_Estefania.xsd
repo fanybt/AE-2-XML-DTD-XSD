@@ -4,15 +4,40 @@
   <element name="Biblioteca">
        <complexType>
           <sequence>
-              <element name ="libro_1">
+              <element name ="libros">
                   <complexType>
                      <sequence>
-                        <element name="titulo" type="string"> 
+                        <element name="libro"  minOccurs="1" maxOccurs="unbounded"> 
                           <complexType>
-                            
+                              <sequence>
+                                <element name ="titulo" type="string" minOccurs="1" maxOccurs="1"/>
+                                <element name ="capitulo" minOccurs="1" maxOccurs="unbounded" >
+                                  <complexType>
+                                     <sequence>
+                                        <element name ="titulo" type="string" />
+                                        <element name ="contenido" >
+                                           <complexType>
+                                              <simpleContent>
+                                                  <extension base="string">
+                                                    <attribute name="enlace" type="string"/>
+                                                  </extension>
+                                               </simpleContent>
+                                           </complexType>
 
-                           
-                          </complexType>
+                                          </element>
+                                        
+                                       </sequence>
+                                      <attribute name ="numero_paginas" type="integer"></attribute>
+                                    </complexType>
+                                </element>
+                             </sequence>
+                            <attribute name ="id" use="required"></attribute>
+                               <simpleType>
+                                    <restriction base="string">
+                                      <pattern value="L[0-9]{4}"></pattern>
+                                    </restriction>
+                                </simpleType>
+                           </complexType>
                             
                              
                             
