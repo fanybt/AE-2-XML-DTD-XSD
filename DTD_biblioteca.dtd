@@ -1,0 +1,36 @@
+<!ELEMENT biblioteca (documentos*)>
+<!ELEMENT documentos (libro|revista|periodico)*>
+<!ELEMENT libro (titulo, capitulo+, indice, sinopsis, paginas)>
+<!ATTLIST libro
+  Id CDATA #REQUIRED
+  tipo_clase CDATA #IMPLIED
+  paginas CDATA #IMPLIED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT capitulo (titulo, contenido, paginas)>
+<!ATTLIST capitulo
+  numero CDATA #REQUIRED>
+<!ELEMENT contenido EMPTY>
+<!ATTLIST contenido
+  url CDATA #IMPLIED>
+<!ELEMENT paginas (#PCDATA)>
+<!ELEMENT indice (capitulo*)>
+<!ELEMENT sinopsis (#PCDATA)>
+<!ELEMENT revista (titulo, numero, indice, paginas)>
+<!ATTLIST revista
+  Id CDATA #REQUIRED
+  tipo_clase CDATA #IMPLIED>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT seccion (articulo+)>
+<!ATTLIST seccion
+  nombre CDATA #REQUIRED
+  paginas CDATA #IMPLIED>
+<!ELEMENT articulo (contenido)>
+<!ATTLIST articulo
+  autor CDATA #REQUIRED>
+<!ELEMENT periodico (titulo, seccion+, indice, paginas)>
+<!ATTLIST periodico
+  Id CDATA #REQUIRED
+  tipo_clase CDATA #IMPLIED
+  fecha_publicacion CDATA #IMPLIED>
+<!ATTLIST biblioteca
+  SYSTEM CDATA #REQUIRED>

@@ -1,0 +1,149 @@
+ <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE biblioteca SYSTEM "DTD_biblioteca.dtd">
+ <documentos>
+    <libro Id="L0001" tipo_clase="novela" paginas="218">
+      <titulo>El Gran Gatsby</titulo>
+      <capitulo numero="1">
+        <titulo>Capítulo 1</titulo>
+        <contenido url="https://www.gradesaver.com/el-gran-gatsby/guia-de-estudio/summary-cap%C3%ADtulo-1"/>
+        <paginas>10</paginas>
+      </capitulo>
+      <capitulo numero="2">
+        <titulo>Capítulo 2</titulo>
+        <contenido url="https://www.gradesaver.com/el-gran-gatsby/guia-de-estudio/summary-cap%C3%ADtulo-2"/>
+        <paginas>15</paginas>
+      </capitulo>
+      <indice>
+        <capitulo numero="1"/>
+        <capitulo numero="2"/>
+      </indice>
+      <sinopsis>Descripción de El Gran Gatsby</sinopsis>
+      <paginas>218</paginas>
+    </libro>
+ <libro Id="L0002" tipo_clase="infantil" paginas="128">
+      <titulo>Geronimo Stilton</titulo>
+      <capitulo numero="1">
+        <titulo>¡Despierta! ¡Despierta!</titulo>
+        <contenido url="https://www.planetalector.com/usuaris/libros_contenido/arxius/33/32870_El_misterio_de_la_piramide_de_queso.pdf"/>
+        <paginas>3</paginas>
+      </capitulo>
+      <capitulo numero="2">
+        <titulo>Me sangra la billetera</titulo>
+        <contenido url="https://www.planetalector.com/usuaris/libros_contenido/arxius/33/32870_El_misterio_de_la_piramide_de_queso.pdf"/>
+        <paginas>6</paginas>
+      </capitulo>
+      <indice>
+        <capitulo numero="1"/>
+        <capitulo numero="2"/>
+      </indice>
+      <sinopsis>Descripción de El Gran Gatsby</sinopsis>
+      <paginas>128</paginas>
+    </libro>
+    <revista Id="R0001" tipo_clase="informatica">
+      <titulo>PC World</titulo>
+      <numero>1</numero>
+      <indice>
+        <seccion nombre="PcHardware" paginas="10">
+          <contenido url="https://www.pcworld.com/pc-components"/>
+        </seccion>
+        <seccion nombre="Laptop" paginas="15">
+          <contenido url="https://www.pcworld.com/article/605831/best-lenovo-laptops.html"/>
+          <contenido url="https://www.pcworld.com/article/550968/best-laptop-deals-3.html"/>
+        </seccion>
+      </indice>
+      <paginas>100</paginas>
+    </revista>
+    <revista Id="R0002" tipo_clase="corazon">
+      <titulo>¡Hola!</titulo>
+      <numero>1</numero>
+      <indice>
+        <seccion nombre="Sociedad" paginas="8">
+          <contenido url="https://www.hola.com/sociedad/"/>
+        </seccion>
+        <seccion nombre="LifeStyleViajes" paginas="12">
+          <contenido url="https://www.hola.com/viajes/galeria/20230510231681/segovia-ruta-sotosalbos-pedraza-sepulveda-hoces-duraton/1/"/>
+          <contenido url="https://www.hola.com/viajes/galeria/20230510231648/las-mejores-cascadas-mundo-para-visitar/1/"/>
+        </seccion>
+      </indice>
+      <paginas>100</paginas>
+    </revista>
+    <revista Id="R0003" tipo_clase="coches">
+      <titulo>Autofacil</titulo>
+      <numero>1</numero>
+      <indice>
+        <seccion nombre="Pruebas" paginas="20">
+          <contenido url="https://www.autofacil.es/pruebas/"/>
+        </seccion>
+        <seccion nombre="NuevosModelos" paginas="20">
+          <contenido url="https://www.autofacil.es/bmw/serie4/bmw-serie-4-coupe-2024/574000.html"/>
+          <contenido url="https://www.autofacil.es/volkswagen/t-cross/fotos-espia-volkswagen-t-cross/565865.html"/>
+        </seccion>
+      </indice>
+      <paginas>100</paginas>
+    </revista>
+    <revista Id="R0004" tipo_clase="investigacion">
+      <titulo>Nature</titulo>
+      <numero>1</numero>
+      <indice>
+        <seccion nombre="Ciencia" paginas="20">
+          <contenido url="https://www.nature.com/srep/"/>
+        </seccion>
+        <seccion nombre="Tecnología" paginas="20">
+          <contenido url="https://www.nature.com/articles/d41586-023-00683-0"/>
+          <contenido url="https://www.nature.com/articles/d41586-023-00512-4"/>
+ </seccion>
+      </indice>
+      <paginas>150</paginas>
+    </revista>
+    <periodico Id="P0001" tipo_clase="nacional" fecha_publicacion="2023-05-10">
+  <titulo>El País</titulo>
+  <seccion tipo="economica">
+    <articulo autor="JESÚS SÉRVULO GONZÁLEZ">
+      <contenido url="https://elpais.com/economia/2023-05-10/los-empresarios-advierten-de-falta-de-mano-de-obra-en-todos-los-sectores.html"/>
+    </articulo>
+    <articulo autor="Virginia Villacisla">
+      <contenido url="https://elpais.com/opinion/2023-05-08/antialbum-familiar.html"/>
+    </articulo>
+  </seccion>
+  <seccion tipo="opinion">
+    <articulo autor="Mar Padilla">
+      <contenido url="https://elpais.com/opinion/2023-05-10/tibias-esperanzas.html"/>
+    </articulo>
+  </seccion>
+  <seccion tipo="deportes">
+    <articulo autor="JUAN I. IRIGOYEN">
+      <contenido url="https://elpais.com/deportes/2023-05-10/sergio-busquets-dice-adios-al-barcelona-no-ha-sido-una-decision-facil-pero-ha-llegado-el-momento.html"/>
+    </articulo>
+    <articulo autor="Carlos Arribas">
+      <contenido url="https://elpais.com/deportes/2023-05-10/kaden-groves-gana-la-etapa-de-salerno-tras-un-dia-de-perros-en-el-giro-de-italia.html"/>
+    </articulo>
+  </seccion>
+  <indice>
+    <seccion tipo="economica"/>
+    <seccion tipo="opinion"/>
+    <seccion tipo="deportes"/>
+  </indice>
+  <paginas>30</paginas>
+</periodico>
+<periodico Id="P0002" tipo_clase="internacional" fecha_publicacion="2023-05-10">
+  <titulo>The New York Times</titulo>
+  <seccion tipo="arts">
+    <articulo autor="Maya Phillips">
+      <contenido url="https://www.nytimes.com/2023/05/10/theater/tony-awards-2023-broadway-critics-picks.html"/>
+    </articulo>
+  </seccion>
+  <seccion tipo="world news">
+    <articulo autor="TYLER HICKS">
+      <contenido url="https://www.nytimes.com/live/2023/05/10/world/russia-ukraine-news"/>
+    </articulo>
+    <articulo autor="Corah Engelbreght">
+      <contenido url="https://www.nytimes.com/2023/05/10/world/africa/khartoum-sudan-fighting.html"/>
+    </articulo>
+  </seccion>
+  <indice>
+    <seccion tipo="arts"/>
+    <seccion tipo="world news"/>
+  </indice>
+  <paginas>45</paginas>
+</periodico>
+</biblioteca>
