@@ -1,11 +1,10 @@
 <?xml version="1.0"?>
-
-   <schema xmlns="http://www.w3.org/2001/XMLSchema">
-     <!--elemento raiz Biblioteca-->
-    <element name="Biblioteca">
-       <complexType>
-          <sequence>
-              <element name ="libros">
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+     
+   <element name="Biblioteca">
+      <complexType>
+         <sequence>
+            <element name ="libros">
                   <complexType>
                      <sequence>
                         <element name="libro"  minOccurs="1" maxOccurs="unbounded"> 
@@ -195,8 +194,8 @@
                
                      </sequence>
                   </complexType>
-              </element>
+            </element>
          </sequence>
-       </complexType>
-     </element>
-   </schema>
+      </complexType>
+   </element>
+</schema>
