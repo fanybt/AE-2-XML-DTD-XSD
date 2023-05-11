@@ -127,7 +127,7 @@
                      <element name="periodico"  minOccurs="1" maxOccurs="unbounded" > 
                       <complexType>
                           <sequence>
-                              <element name ="secciones_p" />
+                              <element name ="secciones_p" minOccurs="1" maxOccurs="unbounded" />
                                  <complexType>
                                     <sequence>
                                        <element name="seccion_p" minOccurs="1" maxOccurs="unbounded">
