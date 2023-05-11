@@ -156,6 +156,16 @@
                                                    </complexType>
                                                 </element>
                                              </sequence>
+                                             <attribute name ="tipo_seccion" >
+                                                <simpleType>
+                                                   <restriction base="string">
+                                                     <enumeration value="economica"></enumeration>
+                                                     <enumeration value="opinion"></enumeration>
+                                                     <enumeration value="deportes"></enumeration>
+                                                   </restriction>
+                                               </simpleType>
+                                           </attribute>
+
                                           </complexType>
                                        </element>
                                        
