@@ -144,37 +144,41 @@
     </revistas>
     <periodicos>
        <periodico id="P0001" tipo_clase="nacionales" fecha_publicacion="12/03/2023">
-           <seccion_p tipo_seccion="economica">
-              <articulo autor="Eduardo Mendoza">
-                  <contenido_p enlace="https://elpais.com/economia/"></contenido_p >
-             </articulo>
-          </seccion_p>
-          <seccion_p tipo_seccion="opinion">
-             <articulo autor="Ana Sanz">
-                 <contenido_p enlace="https://elpais.com/opinion/"></contenido_p >
-             </articulo>
-          </seccion_p>
+          <secciones>
+             <seccion_p tipo_seccion="economica">
+                  <articulo autor="Eduardo Mendoza">
+                      <contenido_p enlace="https://elpais.com/economia/"></contenido_p >
+                  </articulo>
+             </seccion_p>
+             <seccion_p tipo_seccion="opinion">
+                 <articulo autor="Ana Sanz">
+                     <contenido_p enlace="https://elpais.com/opinion/"></contenido_p >
+                 </articulo>
+             </seccion_p>
+         </secciones>
           <indice_p>
               1_Economia
               2_Opinion
          </indice_p>
       </periodico>
       <periodico id="P0002" tipo_clase="internacionales" fecha_publicacion="12/04/2022">
-         <seccion_p tipo_seccion="economica">
-              <articulo autor="Anne Schmiding">
-                    <contenido_p enlace="https://www.elmundofinanciero.com/"></contenido_p >
-               </articulo>
-         </seccion_p>
-         <seccion_p tipo_seccion="deportes">
-              <articulo autor="Ana Sanz">
-                  <contenido_p enlace="https://elpais.com/deportes/"></contenido_p >
-              </articulo>
-          </seccion_p>
-         <seccion_p tipo_seccion="opinion">
-             <articulo autor="Ana Sanz">
-                 <contenido_p enlace="https://elpais.com/opinion/"></contenido_p >
-             </articulo>
-         </seccion_p>
+         <secciones>
+             <seccion_p tipo_seccion="economica">
+                 <articulo autor="Anne Schmiding">
+                      <contenido_p enlace="https://www.elmundofinanciero.com/"></contenido_p >
+                 </articulo>
+              </seccion_p>
+             <seccion_p tipo_seccion="deportes">
+                 <articulo autor="Ana Sanz">
+                      <contenido_p enlace="https://elpais.com/deportes/"></contenido_p >
+                 </articulo>
+             </seccion_p>
+             <seccion_p tipo_seccion="opinion">
+                 <articulo autor="Ana Sanz">
+                      <contenido_p enlace="https://elpais.com/opinion/"></contenido_p >
+                 </articulo>
+             </seccion_p>
+         </secciones>
          <indice_p>
              1_Economia
              2_Deportes
