@@ -32,25 +32,25 @@
                              </element>
                              <element name="indice" type="string" />
                              <element name="sinopsis" type="string"/>
-                             
-                             <attribute name ="id" use="required">
-                               <simpleType>
-                                    <restriction base="string">
-                                      <pattern value="L[0-9]{4}"></pattern>
-                                    </restriction>
-                                </simpleType>
-                              </attribute>
-                              <attribute name ="tipo_clase" >
-                                <simpleType>
-                                  <restriction base="string">
-                                     <enumeration value="novela"></enumeration>
-                                     <enumeration value="infantil"></enumeration>
-                                     <enumeration value="didactica"></enumeration>
-                                  </restriction>
-                                </simpleType>
-                              </attribute>
-                              <attribute name ="numero_paginas" type="integer" > </attribute>
-                          </sequence>
+                         </sequence>
+                           <attribute name ="id" use="required">
+                              <simpleType>
+                               <restriction base="string">
+                                    <pattern value="L[0-9]{4}"></pattern>
+                               </restriction>
+                             </simpleType>
+                          </attribute>
+                          <attribute name ="tipo_clase" >
+                            <simpleType>
+                               <restriction base="string">
+                                  <enumeration value="novela"></enumeration>
+                                  <enumeration value="infantil"></enumeration>
+                                  <enumeration value="didactica"></enumeration>
+                               </restriction>
+                            </simpleType>
+                          </attribute>
+                          <attribute name ="numero_paginas" type="integer" > </attribute>
+                         
                        </complexType>
                             
                              
@@ -121,15 +121,12 @@
              </complexType>
           </element>
                
-                     
-                  
-              
-          <element name ="perodicos">
+          <element name ="periodicos">
               <complexType>
                   <sequence>
-                     <element name="periodico"  minOccurs="1" maxOccurs="unbounded"> 
-                        <complexType>
-                           <sequence>
+                     <element name="periodico"  minOccurs="1" maxOccurs="unbounded" > 
+                      <complexType>
+                          <sequence>
                               <element name ="secciones_p" />
                                  <complexType>
                                     <sequence>
@@ -166,25 +163,24 @@
                                  </complexType>
                            
                               </element>
-                              
                               <element name="indice_p" type="string" />
-                           </sequence>
-                           <attribute name ="id" use="required">
+                         </sequence>
+                         <attribute name ="id" use="required">
                               <simpleType>
                                  <restriction base="string">
-                                     <pattern value=" P[0-9]{4}"></pattern>
+                                    <pattern value=" P[0-9]{4}"></pattern>
                                  </restriction>
-                               </simpleType>
+                              </simpleType>
+                         </attribute>
+                         <attribute name ="tipo_clase" >
+                              <simpleType>
+                                 <restriction base="string">
+                                  <enumeration value="nacionales"></enumeration>
+                                  <enumeration value="internacionales"></enumeration>
+                                 </restriction>
+                              </simpleType>
                            </attribute>
-                            <attribute name ="tipo_clase" >
-                               <simpleType>
-                                  <restriction base="string">
-                                     <enumeration value="nacionales"></enumeration>
-                                     <enumeration value="internacionales"></enumeration>
-                                  </restriction>
-                               </simpleType>
-                            </attribute>
-                            <attribute name ="fecha_publicacion" type="date" > </attribute>
+                           <attribute name ="fecha_publicacion" type="date" > </attribute>
                         </complexType>
                      </element>
                   </sequence>

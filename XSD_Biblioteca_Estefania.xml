@@ -1,6 +1,188 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <Biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XSD_Biblioteca_Estefania.xsd">
 
- 
+  <libros>
+       <libro id="L0001" tipo_clase="novela"  numero_paginas="450">
+          <titulo>Eclipse</titulo>
+            <capitulo numero_paginas="35"> 
+             <titulo>Evasion</titulo>
+             <contenido enlace="https://www.youtube.com/watch?v=VFazb7MFKYU"> </contenido>
+           </capitulo>
+            <capitulo numero_paginas="28"> 
+               <titulo>El Olor</titulo>
+               <contenido  enlace= "https://www.lecturalia.com/libro/16644/eclipse"></contenido>
+          </capitulo>
+          <capitulo numero_paginas="58"> 
+             <titulo>Suiza</titulo>
+             <contenido  enlace= "https://www.ivoox.com/saga-crepusculo-eclipse-capitulo-6-suiza-audios-mp3_rf_4055087_1.html"></contenido>
+          </capitulo>
+          <indice>
+             1_Evasion
+             2_El Olor
+             3_Suiza
+         </indice>
+
+         <sinopsis>
+             Harry Hole se ha mudado a Los Ángeles, ya nada le retiene en Noruega después de perder
+             todo lo que daba sentido a su vida. Allí lo rescata de su deriva alcohólica Lucille, una
+             veterana actriz de cine que a cambio de su protección le ofrece un 
+             techo un traje a medida y unos zapatos de lujo.
+         </sinopsis>
+      </libro>
+      <libro id="L0002" tipo_clase="novela"  numero_paginas="280">
+         <titulo>Las hijas del capitan</titulo>
+          <capitulo numero_paginas="10"> 
+              <titulo>El amor</titulo>
+              <contenido  enlace="https://www.casadellibro.com/libro-las-hijas-del-capitan/9788408189985/6337112" ></contenido>
+          </capitulo>
+   
+          <capitulo numero_paginas="12"> 
+              <titulo>Jugando</titulo>
+              <contenido enlace= "https://enciclopedias.com/c-contemporanea/las-hijas-del-capitan/" ></contenido>
+          </capitulo>
+          <capitulo numero_paginas="25"> 
+             <titulo>En el otoño</titulo>
+             <contenido enlace="https://www.planetadelibros.com/libro-las-hijas-del-capitan/269161"></contenido>
+           </capitulo>
+          <indice>
+             1_El amor
+             2_Jugando
+             3_El otoño
+          </indice>
+      
+
+          <sinopsis>
+             En cuanto a la sinopsis de las hijas del capitán podemos iniciar diciendo 
+             que la trama está basada en la vida de tres mujeres jóvenes españolas que emigraron
+             a los Estados Unidos, en una época que la historia llegó a marcar en definitiva a la
+             sociedad, pues se vio emigrar a muchos españoles tras el inicio de la guerra civil.
+         </sinopsis>
+     </libro>
+     <libro id="L0003" tipo_clase="infantil"  numero_paginas="20">
+         <titulo>El pollo pepe</titulo>
+            <capitulo numero_paginas="8"> 
+                <titulo>Comilon</titulo>
+                <contenido enlace="https://arasaac.org/materials/es/1517"></contenido>
+            </capitulo>
+            <capitulo numero_paginas="12"> 
+                <titulo>Jugando</titulo>
+                <contenido enlace="https://es.literaturasm.com/libro/pollo-pepe"></contenido>
+            </capitulo>
+            <indice>
+               1_Comilon
+               2_Jugando
+            </indice>
+
+            <sinopsis>
+              Cuento simpático para niños de 1-4 años . Cuenta las experiencias y aventuras de nuestro
+              amigo el pollo Pepé .Un pollito muy simpatico y comilón .
+            </sinopsis>
+      </libro>
+ </libros>
+  <revistas>
+     <revista id ="R0001" tipo_clase="corazon" numero_paginas="50">
+         <titulo_r> Hola</titulo_r>
+         <numero_revista>1</numero_revista>
+         <indice_r>
+              1_David Bisbal y su nueva casa
+              2_Los reyes con su hija Sofia
+             3_Como cocinar como los famosos 
+         </indice_r>
+          <secciones>
+         
+              <seccion numero_paginas="12">
+                  <contenido_r enlace="https://www.elmundo.es/f5/comparte/2023/04/19/643fbe7de4d4d84e0c8b45b8.html"></contenido_r>
+               </seccion>
+              <seccion numero_paginas="14">
+                  <contenido_r enlace="https://www.hola.com/"></contenido_r>
+             </seccion>
+             <seccion numero_paginas="14">
+                 <contenido_r enlace="https://www.lecturas.com/recetas"></contenido_r>
+             </seccion>
+         </secciones>
+
+        </revista>
+        <revista id ="R0002" tipo_clase="investigacion" numero_paginas="100">
+            <titulo_r> Science</titulo_r>
+            <numero_revista>12</numero_revista>
+            <indice_r>
+               1_Como afectara a la humanidad el gran apagón
+               2_El himalaya
+          </indice_r>
+          <secciones>
+             <seccion numero_paginas="24">
+                  <contenido_r enlace= "https://www.science.org"/>
+              </seccion>
+             <seccion numero_paginas="30">
+                 <contenido_r enlace= "https://www.science.org"/>
+             </seccion>
+          </secciones>
+        </revista>
+        <revista id ="R0003" tipo_clase="coches" numero_paginas="10">
+            <titulo_r> Automovil</titulo_r>
+            <numero_revista>2</numero_revista>
+            <indice_r>
+                1_El nuevo BMW serie 3 Cabrio
+                2_El motor de inyeccion
+                3_Rutas moteras
+            </indice_r>
+            <secciones>
+             <seccion numero_paginas="20">
+                  <contenido_r enlace= "https://www.autopista.es/noticias-motor/revista-automovil-522-ya-venta-probamos-en-exclusiva-ferrari-daytona-sp3-mclaren-artura_264825_102.html"/>
+             </seccion>
+             <seccion numero_paginas="30">
+                  <contenido_r enlace= "https://www.bmw.es/es/coches-bmw.html?tl=sea-gl-ES_BMW_NEWCARS_CARLINE_SPA_BND_ALO-mix-miy-.-sech-BRAND_BND_CARLINE_NONE-.-p-bmw%20nuevos-.-."/>
+             </seccion>
+             <seccion numero_paginas="30">
+                  <contenido_r enlace= "https://www.invictusapparel.es/rutas-moto-espana/"/>
+             </seccion>
+            </secciones>
+
+        </revista>
+
+    </revistas>
+    <periodicos>
+       <periodico id="P0001" tipo_clase="nacionales" fecha_publicacion="12/03/2023">
+           <seccion_p tipo_seccion="economica">
+              <articulo autor="Eduardo Mendoza">
+                  <contenido_p enlace="https://elpais.com/economia/"></contenido_p >
+             </articulo>
+          </seccion_p>
+          <seccion_p tipo_seccion="opinion">
+             <articulo autor="Ana Sanz">
+                 <contenido_p enlace="https://elpais.com/opinion/"></contenido_p >
+             </articulo>
+          </seccion_p>
+          <indice_p>
+              1_Economia
+              2_Opinion
+         </indice_p>
+      </periodico>
+      <periodico id="P0002" tipo_clase="internacionales" fecha_publicacion="12/04/2022">
+         <seccion_p tipo_seccion="economica">
+              <articulo autor="Anne Schmiding">
+                    <contenido_p enlace="https://www.elmundofinanciero.com/"></contenido_p >
+               </articulo>
+         </seccion_p>
+         <seccion_p tipo_seccion="deportes">
+              <articulo autor="Ana Sanz">
+                  <contenido_p enlace="https://elpais.com/deportes/"></contenido_p >
+              </articulo>
+          </seccion_p>
+         <seccion_p tipo_seccion="opinion">
+             <articulo autor="Ana Sanz">
+                 <contenido_p enlace="https://elpais.com/opinion/"></contenido_p >
+             </articulo>
+         </seccion_p>
+         <indice_p>
+             1_Economia
+             2_Deportes
+             3_Opinion
+         </indice_p>
+      </periodico>
+   </periodicos>
 </Biblioteca>
+
+
+ 
