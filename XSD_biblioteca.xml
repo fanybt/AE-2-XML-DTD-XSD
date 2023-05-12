@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="XSD_biblioteca.xsd">
+
+    <libros>
+
+
+        <libro id="L0001" tipo_clase="novela" numero_paginas="600">
+
+            <titulo_libro></titulo_libro>
+            <indice_libro></indice_libro>
+            <sinopsis></sinopsis>
+            <capitulos>
+
+                <capitulo numero_paginas="300">
+
+                    <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <contenido_capitulo enlace_informacion="https:" />
+
+                </capitulo>
+
+                <capitulo numero_paginas="200">
+
+                    <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <contenido_capitulo enlace_informacion="https:" />
+                </capitulo>
+
+                <capitulo numero_paginas="100">
+
+                    <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <contenido_capitulo enlace_informacion="https:" />
+
+                </capitulo>
+
+            </capitulos>
+
+        </libro>
+
+        
+    </libros>
+
+    <revistas>
+
+        <revista id="R0001" tipo_clase="informatica" numero_paginas="300">
+
+            <titulo></titulo>
+            <numero_revista></numero_revista>
+            <indice_revista></indice_revista>
+
+            <secciones_revista>
+
+                <seccion_revista numero_paginas="100">
+
+                    <contenido_seccion_revista enlace_informacion="https:" />
+
+                </seccion_revista>
+
+                <seccion_revista numero_paginas="100">
+
+                    <contenido_seccion_revista enlace_informacion="https:" />
+
+                </seccion_revista>
+
+                <seccion_revista numero_paginas="100">
+
+                    <contenido_seccion_revista enlace_informacion="https:" />
+
+                </seccion_revista>
+
+            </secciones_revista>
+
+
+        </revista>
+
+    </revistas>
+
+    <periodicos>
+
+        <periodico id="P0001" tipo_clase="nacional" fecha_publicacion="10/07/2022">
+
+            <indice_periodico></indice_periodico>
+
+            <secciones_periodico>
+
+                <seccion_periodico tiposeccion="economica">
+
+                    <articulos>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido_articulo enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido_articulo enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido_articulo enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido_articulo enlace_informacion="https:" />
+
+                        </articulo>
+
+                    </articulos>
+
+                </seccion_periodico>
+
+                <seccion_periodico tiposeccion="opinion">
+
+                    <articulos>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido_articulo enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido_articulo enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido_articulo enlace_informacion="https:" />
+
+                        </articulo>
+
+                        <articulo autor="JuanBrotons">
+
+                            <contenido_articulo enlace_informacion="https:" />
+
+                        </articulo>
+
+                    </articulos>
+
+                </seccion_periodico>
+
+            </secciones_periodico>
+
+
+        </periodico>
+
+    </periodicos>
+
+</biblioteca>
