@@ -165,7 +165,7 @@
                                                 <enumeration value="corazon"></enumeration>
                                                 <enumeration value="coches"></enumeration>
                                                 <enumeration value="investigacion"></enumeration>
-                                                <enumeration value="didactico"></enumeration>
+                                                <enumeration value="otras"></enumeration>
 
                                             </restriction>
                                         </simpleType>
