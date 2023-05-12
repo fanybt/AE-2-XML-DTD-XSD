@@ -2,7 +2,7 @@
 <biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="XSD_biblioteca.xsd">
 
-<libros>
+    <libros>
 
 
         <libro id="L0001" tipo_clase="novela" numero_paginas="600">
@@ -52,12 +52,12 @@
                 <capitulo numero_paginas="40">
 
                     <titulo_capitulo>cdscsd</titulo_capitulo>
-                   <contenido_capitulo enlace_informacion="https:" />
+                    <contenido_capitulo enlace_informacion="https:" />
                 </capitulo>
 
                 <capitulo numero_paginas="40">
 
-                   <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <titulo_capitulo>cdscsd</titulo_capitulo>
                     <contenido_capitulo enlace_informacion="https:" />
 
                 </capitulo>
@@ -132,7 +132,7 @@
 
         </revista>
 
-        <revista id="R0002" tipo_clase= "corazon" numero_paginas="180">
+        <revista id="R0002" tipo_clase="corazon" numero_paginas="180">
 
             <titulo></titulo>
             <numero_revista>02</numero_revista>
@@ -442,6 +442,6 @@
 
         </periodico>
 
-    </periodicos>   
+    </periodicos>
 
 </biblioteca>

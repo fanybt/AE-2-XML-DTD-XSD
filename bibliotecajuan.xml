@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
- <!DOCTYPE biblioteca SYSTEM "bibliotecajuan.dtd">
+<!DOCTYPE biblioteca SYSTEM "bibliotecajuan.dtd">
 
 <biblioteca>
 
@@ -55,12 +54,12 @@
                 <capitulo numero_paginas="40">
 
                     <titulo_capitulo>cdscsd</titulo_capitulo>
-                   <contenido_capitulo enlace_informacion="https:" />
+                    <contenido_capitulo enlace_informacion="https:" />
                 </capitulo>
 
                 <capitulo numero_paginas="40">
 
-                   <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <titulo_capitulo>cdscsd</titulo_capitulo>
                     <contenido_capitulo enlace_informacion="https:" />
 
                 </capitulo>
@@ -135,7 +134,7 @@
 
         </revista>
 
-        <revista id="R0002" tipo_clase= "corazon" numero_paginas="180">
+        <revista id="R0002" tipo_clase="corazon" numero_paginas="180">
 
             <titulo></titulo>
             <numero_revista>02</numero_revista>

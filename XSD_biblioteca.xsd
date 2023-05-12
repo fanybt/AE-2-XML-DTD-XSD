@@ -235,7 +235,7 @@
                                                                     <restriction base="string">
                                                                         <enumeration
                                                                             value="economica">
-                                                                            </enumeration>
+                                                                        </enumeration>
                                                                         <enumeration value="opinion"></enumeration>
                                                                         <enumeration
                                                                             value="deportes"></enumeration>
@@ -292,12 +292,6 @@
 
 
     </element>
-
-
-    
-
-
-    
 
 
 </schema>
