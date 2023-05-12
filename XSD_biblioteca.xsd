@@ -7,7 +7,7 @@
                 <element name="libros">
                     <complexType>
                         <sequence>
-                            <element name="libro">
+                            <element name="libro" maxOccurs="unbounded">
                                 <complexType>
                                     <sequence>
 
@@ -101,9 +101,100 @@
                     </complexType>
                 </element>
 
+                <element name="revistas">
+                    <complexType>
+                        <sequence>
+                            <element name="revista" maxOccurs="unbounded">
+                                <complexType>
+                                    <sequence>
 
+                                        <element name="titulo" type="string"></element>
+                                        <element name="numero_revista" type="integer"></element>
+                                        <element name="indice_revista" type="string"></element>
+
+                                        <element name="secciones_revista">
+                                            <complexType>
+                                                <sequence>
+                                                    <element name="seccion_revista"
+                                                        maxOccurs="unbounded">
+
+                                                        <complexType>
+                                                            <sequence>
+                                                                <element
+                                                                    name="contenido_seccion_revista">
+                                                                    <complexType>
+                                                                        <attribute
+                                                                            name="enlace_informacion"
+                                                                            type=":string"
+                                                                            use="required"></attribute>
+                                                                    </complexType>
+                                                                </element>
+                                                            </sequence>
+
+                                                            <attribute name="numero_paginas">
+                                                                <simpleType>
+                                                                    <restriction base="integer">
+                                                                        <totalDigits value="4"></totalDigits>
+                                                                    </restriction>
+                                                                </simpleType>
+                                                            </attribute>
+
+
+                                                        </complexType>
+                                                    </element>
+                                                </sequence>
+                                            </complexType>
+                                        </element>
+                                    </sequence>
+
+
+                                    <attribute name="id">
+                                        <simpleType>
+                                            <restriction base="string">
+                                                <pattern value="[R][0-9]{4}"></pattern>
+                                            </restriction>
+                                        </simpleType>
+
+                                    </attribute>
+
+                                    <attribute name="tipo_clase">
+                                        <simpleType>
+                                            <restriction>
+                                                <enumeration value="informatica"></enumeration>
+                                                <enumeration value="corazon"></enumeration>
+                                                <enumeration value="coches"></enumeration>
+                                                <enumeration value="investigacion"></enumeration>
+                                                <enumeration value="didactico"></enumeration>
+                                            </restriction>
+                                        </simpleType>
+                                    </attribute>
+
+                                    <attribute name="numero_paginas">
+                                        <simpleType>
+                                            <restriction base="integer">
+                                                <totalDigits value="4"></totalDigits>
+                                            </restriction>
+                                        </simpleType>
+                                    </attribute>
+                                </complexType>
+
+                            </element>
+
+
+                        </sequence>
+                    </complexType>
+
+
+                </element>
             </sequence>
         </complexType>
+
+
+    </element>
+
+
+    </sequence>
+    </complexType>
 
 
     </element>
