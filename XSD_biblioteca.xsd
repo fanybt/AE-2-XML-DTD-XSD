@@ -125,7 +125,7 @@
                                                                     <complexType>
                                                                         <attribute
                                                                             name="enlace_informacion"
-                                                                            type=":string"
+                                                                            type="string"
                                                                             use="required"></attribute>
                                                                     </complexType>
                                                                 </element>
@@ -196,7 +196,7 @@
                                 <complexType>
                                     <sequence>
 
-                                        <element name="indice_periodico" type=":string"></element>
+                                        <element name="indice_periodico" type="string"></element>
                                         <element name="secciones_periodico">
                                             <complexType>
                                                 <sequence>
@@ -220,7 +220,9 @@
                                                                                             </complexType>
                                                                                         </element>
                                                                                     </sequence>
-                                                                                    <attribute name="autor" type="string"></attribute>
+                                                                                    <attribute
+                                                                                        name="autor"
+                                                                                        type="string"></attribute>
                                                                                 </complexType>
                                                                             </element>
                                                                         </sequence>
@@ -231,8 +233,9 @@
                                                             <attribute name="tiposeccion">
                                                                 <simpleType>
                                                                     <restriction base="string">
-                                                                        <enumartion
-                                                                            value="economica"></enumartion>
+                                                                        <enumeration
+                                                                            value="economica">
+                                                                            </enumeration>
                                                                         <enumeration value="opinion"></enumeration>
                                                                         <enumeration
                                                                             value="deportes"></enumeration>
@@ -257,7 +260,7 @@
 
                                     <attribute name="id" use="required">
                                         <simpleType>
-                                            <restriction>
+                                            <restriction base="string">
                                                 <pattern value="[P][0-9]{4}"></pattern>
                                             </restriction>
                                         </simpleType>
@@ -274,7 +277,7 @@
                                         </simpleType>
                                     </attribute>
 
-                                    <attribute name="fecha_publicacion" type=":date"></attribute>
+                                    <attribute name="fecha_publicacion" type="date"></attribute>
 
 
                                 </complexType>
@@ -291,11 +294,10 @@
     </element>
 
 
-    </sequence>
-    </complexType>
+    
 
 
-    </element>
+    
 
 
 </schema>
