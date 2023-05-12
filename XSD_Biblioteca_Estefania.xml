@@ -143,7 +143,7 @@
 
     </revistas>
     <periodicos>
-       <periodico id="P0001" tipo_clase="nacionales" fecha_publicacion="2023/03/12">
+       <periodico id="P0001" tipo_clase="nacionales" fecha_publicacion="2023-03-12">
           <secciones_p>
              <seccion_p tipo_seccion="economica">
                   <articulo autor="Eduardo Mendoza">
@@ -161,7 +161,7 @@
               2_Opinion
          </indice_p>
       </periodico>
-      <periodico id="P0002" tipo_clase="internacionales" fecha_publicacion="2023/04/20">
+      <periodico id="P0002" tipo_clase="internacionales" fecha_publicacion="2023-04-20">
          <secciones_p>
              <seccion_p tipo_seccion="economica">
                  <articulo autor="Anne Schmiding">

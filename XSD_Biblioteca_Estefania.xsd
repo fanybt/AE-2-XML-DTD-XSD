@@ -127,7 +127,7 @@
                      <element name="periodico"  minOccurs="1" maxOccurs="unbounded" > 
                       <complexType>
                           <sequence>
-                              <element name ="secciones_p" />
+                              <element name ="secciones_p">
                                  <complexType>
                                     <sequence>
                                        <element name="seccion_p" minOccurs="1" maxOccurs="unbounded">
@@ -152,7 +152,7 @@
                                                            
                                                          </element>
                                                       </sequence>
-                                                      <attribute name ="autor" type="String"/>
+                                                      <attribute name ="autor" type="string"/>
                                                    </complexType>
                                                 </element>
                                              </sequence>
@@ -178,7 +178,7 @@
                          <attribute name ="id" use="required">
                               <simpleType>
                                  <restriction base="string">
-                                    <pattern value=" P[0-9]{4}"></pattern>
+                                    <pattern value="P[0-9]{4}"></pattern>
                                  </restriction>
                               </simpleType>
                          </attribute>
