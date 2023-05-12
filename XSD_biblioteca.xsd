@@ -1,33 +1,112 @@
 <?xml version="1.0"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema">
-    
-    <element name="biblioteca"></element>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+    <element name="biblioteca">
+        <complexType>
+            <sequence>
+                <element name="libros">
+                    <complexType>
+                        <sequence>
+                            <element name="libro">
+                                <complexType>
+                                    <sequence>
+
+                                        <element name="titulo_libro" type="string"></element>
+                                        <element name="indice_libro" type="string"></element>
+                                        <element name="sinopsis" type="string"></element>
+
+                                        <element name="capitulos">
+                                            <complexType>
+                                                <sequence>
+
+                                                    <element name="capitulo" maxOccurs="unbounded">
+                                                        <complexType>
+
+                                                            <sequence>
+
+                                                                <element name="titulo_capitulo"
+                                                                    type="string"></element>
+                                                                <element name="contenido_capitulo">
+                                                                    <complexType>
+                                                                        <attribute
+                                                                            name="enlace_informacion"
+                                                                            use="required"></attribute>
+                                                                    </complexType>
+                                                                </element>
+
+                                                            </sequence>
+
+                                                            <attribute name="numero_paginas"
+                                                                use="required">
+
+                                                                <simpleType>
+                                                                    <restriction base="integer">
+                                                                        <totalDigits value="4"></totalDigits>
+                                                                    </restriction>
+                                                                </simpleType>
+                                                            </attribute>
+
+                                                        </complexType>
+                                                    </element>
+
+                                                </sequence>
+
+                                            </complexType>
+                                        </element>
 
 
+                                    </sequence>
 
 
+                                    <attribute name="id" use="required">
+                                        <simpleType>
+                                            <restriction base="string">
+                                                <pattern value="[L][0-9]{4}"></pattern>
+                                            </restriction>
+                                        </simpleType>
+                                    </attribute>
+
+                                    <attribute name="tipo_clase" use="required">
+
+                                        <simpleType>
+                                            <restriction base="string">
+
+                                                <enumeration value="novela"></enumeration>
+                                                <enumeration value="infantil"></enumeration>
+                                                <enumeration value="didactica"></enumeration>
+
+                                            </restriction>
+                                        </simpleType>
+
+                                    </attribute>
 
 
+                                    <attribute name="numero_paginas" use="required">
+                                        <simpleType>
+                                            <restriction base="integer">
+                                                <totalDigits value="4"></totalDigits>
+                                            </restriction>
+                                        </simpleType>
 
+
+                                    </attribute>
+
+
+                                </complexType>
+
+
+                            </element>
+
+                        </sequence>
+                    </complexType>
+                </element>
+
+
+            </sequence>
+        </complexType>
+
+
+    </element>
 
 
 </schema>
