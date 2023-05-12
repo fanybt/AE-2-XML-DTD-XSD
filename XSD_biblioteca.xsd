@@ -73,7 +73,7 @@
 
                                                 <enumeration value="novela"></enumeration>
                                                 <enumeration value="infantil"></enumeration>
-                                                <enumeration value="didactica"></enumeration>
+                                                <enumeration value="didactico"></enumeration>
 
                                             </restriction>
                                         </simpleType>

@@ -10,9 +10,9 @@
 
         <libro id="L0001" tipo_clase="novela" numero_paginas="600">
 
-            <titulo_libro></titulo_libro>
-            <indice_libro></indice_libro>
-            <sinopsis></sinopsis>
+            <titulo_libro>dfhjsdfjs</titulo_libro>
+            <indice_libro>jfsdfj</indice_libro>
+            <sinopsis>fjjfsdjs</sinopsis>
             <capitulos>
 
                 <capitulo numero_paginas="300">
@@ -107,7 +107,7 @@
         <revista id="R0001" tipo_clase="informatica" numero_paginas="300">
 
             <titulo></titulo>
-            <numero_revista></numero_revista>
+            <numero_revista>01</numero_revista>
             <indice_revista></indice_revista>
 
             <secciones_revista>
@@ -138,7 +138,7 @@
         <revista id="R0002" tipo_clase= "corazon" numero_paginas="180">
 
             <titulo></titulo>
-            <numero_revista></numero_revista>
+            <numero_revista>02</numero_revista>
             <indice_revista></indice_revista>
 
             <secciones_revista>
@@ -169,7 +169,7 @@
         <revista id="R0003" tipo_clase="coches" numero_paginas="200">
 
             <titulo></titulo>
-            <numero_revista></numero_revista>
+            <numero_revista>03</numero_revista>
             <indice_revista></indice_revista>
 
             <secciones_revista>
@@ -200,7 +200,7 @@
         <revista id="R0004" tipo_clase="investigacion" numero_paginas="500">
 
             <titulo></titulo>
-            <numero_revista></numero_revista>
+            <numero_revista>04</numero_revista>
             <indice_revista></indice_revista>
 
             <secciones_revista>
@@ -231,7 +231,7 @@
         <revista id="R0005" tipo_clase="otras" numero_paginas="400">
 
             <titulo></titulo>
-            <numero_revista></numero_revista>
+            <numero_revista>05</numero_revista>
             <indice_revista></indice_revista>
 
             <secciones_revista>
@@ -263,7 +263,7 @@
 
     <periodicos>
 
-        <periodico id="P0001" tipo_clase="nacional" fecha_publicacion="10/07/2022">
+        <periodico id="P0001" tipo_clase="nacional" fecha_publicacion="2022-07-10">
 
             <indice_periodico></indice_periodico>
 
@@ -338,7 +338,7 @@
 
         </periodico>
 
-        <periodico id="P0002" tipo_clase="internacional" fecha_publicacion="11/07/2022">
+        <periodico id="P0002" tipo_clase="internacional" fecha_publicacion="2022-07-11">
 
             <indice_periodico></indice_periodico>
 
