@@ -9,27 +9,27 @@
 
         <libro id="L0001" tipo_clase="novela" numero_paginas="600">
 
-            <titulo_libro>dfhjsdfjs</titulo_libro>
-            <indice_libro>jfsdfj</indice_libro>
-            <sinopsis>fjjfsdjs</sinopsis>
+            <titulo_libro>TEXTO_EJEMPLO</titulo_libro>
+            <indice_libro>TEXTO_EJEMPLO</indice_libro>
+            <sinopsis>TEXTO_EJEMPLO</sinopsis>
             <capitulos>
 
                 <capitulo numero_paginas="300">
 
-                    <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <titulo_capitulo>TEXTO_EJEMPLO</titulo_capitulo>
                     <contenido_capitulo enlace_informacion="https:" />
 
                 </capitulo>
 
                 <capitulo numero_paginas="200">
 
-                    <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <titulo_capitulo>TEXTO_EJEMPLO</titulo_capitulo>
                     <contenido_capitulo enlace_informacion="https:" />
                 </capitulo>
 
                 <capitulo numero_paginas="100">
 
-                    <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <titulo_capitulo>TEXTO_EJEMPLO</titulo_capitulo>
                     <contenido_capitulo enlace_informacion="https:" />
 
                 </capitulo>
@@ -40,26 +40,26 @@
 
         <libro id="L0002" tipo_clase="infantil" numero_paginas="120">
 
-            <titulo_libro></titulo_libro>
-            <indice_libro></indice_libro>
-            <sinopsis></sinopsis>
+            <titulo_libro>TEXTO_EJEMPLO</titulo_libro>
+            <indice_libro>TEXTO_EJEMPLO</indice_libro>
+            <sinopsis>TEXTO_EJEMPLO</sinopsis>
             <capitulos>
 
                 <capitulo numero_paginas="40">
 
-                    <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <titulo_capitulo>TEXTO_EJEMPLO</titulo_capitulo>
                     <contenido_capitulo enlace_informacion="https:" />
                 </capitulo>
 
                 <capitulo numero_paginas="40">
 
-                    <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <titulo_capitulo>TEXTO_EJEMPLO</titulo_capitulo>
                     <contenido_capitulo enlace_informacion="https:" />
                 </capitulo>
 
                 <capitulo numero_paginas="40">
 
-                    <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <titulo_capitulo>TEXTO_EJEMPLO</titulo_capitulo>
                     <contenido_capitulo enlace_informacion="https:" />
 
                 </capitulo>
@@ -70,27 +70,27 @@
 
         <libro id="L0003" tipo_clase="didactico" numero_paginas="200">
 
-            <titulo_libro></titulo_libro>
-            <indice_libro></indice_libro>
-            <sinopsis></sinopsis>
+            <titulo_libro>TEXTO_EJEMPLO</titulo_libro>
+            <indice_libro>TEXTO_EJEMPLO</indice_libro>
+            <sinopsis>TEXTO_EJEMPLO</sinopsis>
             <capitulos>
 
                 <capitulo numero_paginas="100">
 
-                    <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <titulo_capitulo>TEXTO_EJEMPLO</titulo_capitulo>
                     <contenido_capitulo enlace_informacion="https:" />
 
                 </capitulo>
 
                 <capitulo numero_paginas="60">
 
-                    <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <titulo_capitulo>TEXTO_EJEMPLO</titulo_capitulo>
                     <contenido_capitulo enlace_informacion="https:" />
                 </capitulo>
 
                 <capitulo numero_paginas="40">
 
-                    <titulo_capitulo>cdscsd</titulo_capitulo>
+                    <titulo_capitulo>TEXTO_EJEMPLO</titulo_capitulo>
                     <contenido_capitulo enlace_informacion="https:" />
                 </capitulo>
 
@@ -105,9 +105,9 @@
 
         <revista id="R0001" tipo_clase="informatica" numero_paginas="300">
 
-            <titulo></titulo>
+            <titulo>TEXTO_EJEMPLO</titulo>
             <numero_revista>01</numero_revista>
-            <indice_revista></indice_revista>
+            <indice_revista>TEXTO_EJEMPLO</indice_revista>
 
             <secciones_revista>
 
@@ -136,9 +136,9 @@
 
         <revista id="R0002" tipo_clase="corazon" numero_paginas="180">
 
-            <titulo></titulo>
+            <titulo>TEXTO_EJEMPLO</titulo>
             <numero_revista>02</numero_revista>
-            <indice_revista></indice_revista>
+            <indice_revista>TEXTO_EJEMPLO</indice_revista>
 
             <secciones_revista>
 
@@ -167,9 +167,9 @@
 
         <revista id="R0003" tipo_clase="coches" numero_paginas="200">
 
-            <titulo></titulo>
+            <titulo>TEXTO_EJEMPLO</titulo>
             <numero_revista>03</numero_revista>
-            <indice_revista></indice_revista>
+            <indice_revista>TEXTO_EJEMPLO</indice_revista>
 
             <secciones_revista>
 
@@ -198,9 +198,9 @@
 
         <revista id="R0004" tipo_clase="investigacion" numero_paginas="500">
 
-            <titulo></titulo>
+            <titulo>TEXTO_EJEMPLO</titulo>
             <numero_revista>04</numero_revista>
-            <indice_revista></indice_revista>
+            <indice_revista>TEXTO_EJEMPLO</indice_revista>
 
             <secciones_revista>
 
@@ -229,9 +229,9 @@
 
         <revista id="R0005" tipo_clase="otras" numero_paginas="400">
 
-            <titulo></titulo>
+            <titulo>TEXTO_EJEMPLO</titulo>
             <numero_revista>05</numero_revista>
-            <indice_revista></indice_revista>
+            <indice_revista>TEXTO_EJEMPLO</indice_revista>
 
             <secciones_revista>
 
@@ -264,7 +264,7 @@
 
         <periodico id="P0001" tipo_clase="nacional" fecha_publicacion="2022-07-10">
 
-            <indice_periodico></indice_periodico>
+            <indice_periodico>TEXTO_EJEMPLO</indice_periodico>
 
             <secciones_periodico>
 
@@ -339,7 +339,7 @@
 
         <periodico id="P0002" tipo_clase="internacional" fecha_publicacion="2022-07-11">
 
-            <indice_periodico></indice_periodico>
+            <indice_periodico>TEXTO_EJEMPLO</indice_periodico>
 
             <secciones_periodico>
 
